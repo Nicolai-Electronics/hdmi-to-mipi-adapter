@@ -1,4 +1,11 @@
 (sym_lib_table
   (version 7)
   (lib (name "tc358870xbg")(type "KiCad")(uri "${KIPRJMOD}/tc358870xbg.kicad_sym")(options "")(descr ""))
+  (lib (name "mch2021-rescue")(type "Legacy")(uri "/home/renze/Documents/Badge.team/MCH2022/mch2022-badge-hardware/mch2021-rescue.lib")(options "")(descr ""))
+  (lib (name "custom")(type "Legacy")(uri "/home/renze/Documents/Badge.team/MCH2022/mch2022-badge-hardware/custom.lib")(options "")(descr ""))
+  (lib (name "amplifier")(type "KiCad")(uri "/home/renze/Documents/Badge.team/MCH2022/mch2022-badge-hardware/amplifier.kicad_sym")(options "")(descr ""))
+  (lib (name "CS4344-CZZ")(type "Legacy")(uri "/home/renze/Documents/Badge.team/MCH2022/mch2022-badge-hardware/CS4344-CZZ.lib")(options "")(descr ""))
+  (lib (name "Simple_Addon_v2")(type "Legacy")(uri "/home/renze/Documents/Badge.team/MCH2022/mch2022-badge-hardware/Simple_Addon_v2.lib")(options "")(descr ""))
+  (lib (name "JS1400BFQ")(type "Legacy")(uri "/home/renze/Documents/Badge.team/MCH2022/mch2022-badge-hardware/JS1400BFQ.lib")(options "")(descr ""))
+  (lib (name "RP2040")(type "Legacy")(uri "/home/renze/Documents/Badge.team/MCH2022/mch2022-badge-hardware/RP2040.lib")(options "")(descr ""))
 )
