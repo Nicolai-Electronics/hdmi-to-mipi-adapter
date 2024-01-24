@@ -19376,6 +19376,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 254 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "H10"
 			(uuid "a1d8f72c-1ec6-49ff-a649-518b5c272404")
 		)
@@ -19678,6 +19687,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 208.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cde968ba-2b07-4591-8666-2124163361e7")
 		)
@@ -19802,7 +19820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 299.72 102.87 0)
 			(effects
 				(font
@@ -19812,6 +19830,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 299.72 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 299.72 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 299.72 102.87 0)
 			(effects
 				(font
@@ -19890,33 +19926,6 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 151.13 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 151.13 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 151.13 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C16780"
 			(at 151.13 163.83 0)
 			(effects
@@ -19926,34 +19935,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21A476MQYNNNE"
-			(at 151.13 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 151.13 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "6"
-			(at 151.13 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "6.3"
+		(property "Field-1" ""
 			(at 151.13 163.83 0)
 			(effects
 				(font
@@ -20031,24 +20013,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 22.86 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 22.86 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C307331"
 			(at 22.86 205.74 0)
 			(effects
@@ -20058,52 +20022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 22.86 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 22.86 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL05B104KB54PNC"
-			(at 22.86 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 22.86 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 22.86 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "50"
+		(property "Field-1" ""
 			(at 22.86 205.74 0)
 			(effects
 				(font
@@ -20170,7 +20089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 339.09 49.53 0)
 			(effects
 				(font
@@ -20180,6 +20099,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 339.09 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 339.09 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 339.09 49.53 0)
 			(effects
 				(font
@@ -20238,7 +20175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
 			(at 49.53 76.2 0)
 			(effects
 				(font
@@ -20248,6 +20185,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 49.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 49.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
 			(at 49.53 76.2 0)
 			(effects
 				(font
@@ -20332,6 +20287,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 397.51 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ef806ba-62db-43bd-acef-8753744b099c")
 		)
@@ -20382,7 +20346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 232.41 86.36 0)
 			(effects
 				(font
@@ -20392,6 +20356,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 232.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 232.41 86.36 0)
 			(effects
 				(font
@@ -20544,6 +20517,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 403.86 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "870ac750-796d-476d-818d-fd2e93a41a85")
 		)
@@ -20613,24 +20595,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 31.75 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 31.75 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C602037"
 			(at 31.75 205.74 0)
 			(effects
@@ -20640,52 +20604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 31.75 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 31.75 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL21A226MAYNNNE"
-			(at 31.75 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 31.75 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 31.75 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "25"
+		(property "Field-1" ""
 			(at 31.75 205.74 0)
 			(effects
 				(font
@@ -20778,79 +20697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 220.98 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 220.98 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 220.98 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TCC0402C0G220J500AT"
-			(at 220.98 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors"
-			(at 220.98 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 220.98 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "CCTC"
-			(at 220.98 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 220.98 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "50"
+		(property "Field-1" ""
 			(at 220.98 77.47 0)
 			(effects
 				(font
@@ -20943,79 +20790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 190.5 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "-"
-			(at 190.5 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 190.5 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors"
-			(at 190.5 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 190.5 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL05B104KB54PNC"
-			(at 190.5 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 190.5 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 190.5 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "50"
+		(property "Field-1" ""
 			(at 190.5 29.21 0)
 			(effects
 				(font
@@ -21106,61 +20881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "-"
-			(at 62.23 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 62.23 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 62.23 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Inductors"
-			(at 62.23 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MCS20FC-2R2MHC"
-			(at 62.23 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "PSA"
-			(at 62.23 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
+		(property "Field-1" ""
 			(at 62.23 193.04 0)
 			(effects
 				(font
@@ -21319,61 +21040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "-"
-			(at 49.53 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 49.53 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 49.53 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "ICs"
-			(at 49.53 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 49.53 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SY8079AAC"
-			(at 49.53 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Silergy Corp"
+		(property "Field-1" ""
 			(at 49.53 227.33 0)
 			(effects
 				(font
@@ -21676,6 +21343,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 397.51 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "844f02b5-a3b6-49be-83f8-06e35283cd24")
 		)
@@ -21825,43 +21501,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "W25Q16JVUXIQ"
-			(at 106.68 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Winbond Elec"
-			(at 106.68 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "ICs"
-			(at 106.68 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "N"
-			(at 106.68 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "Y"
+		(property "Field-1" ""
 			(at 106.68 63.5 0)
 			(effects
 				(font
@@ -21954,6 +21594,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 386.08 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 386.08 130.81 0)
 			(effects
 				(font
@@ -22094,6 +21743,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 311.15 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 311.15 158.75 0)
 			(effects
 				(font
@@ -22253,43 +21911,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "W25Q16JVUXIQ"
-			(at 106.68 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Winbond Elec"
-			(at 106.68 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "ICs"
-			(at 106.68 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "N"
-			(at 106.68 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "Y"
+		(property "Field-1" ""
 			(at 106.68 63.5 0)
 			(effects
 				(font
@@ -22594,24 +22216,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 179.07 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 179.07 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C307331"
 			(at 179.07 238.76 0)
 			(effects
@@ -22621,52 +22225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 179.07 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 179.07 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL05B104KB54PNC"
-			(at 179.07 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 179.07 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 179.07 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "50"
+		(property "Field-1" ""
 			(at 179.07 238.76 0)
 			(effects
 				(font
@@ -22759,79 +22318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 116.84 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "-"
-			(at 116.84 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 116.84 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors"
-			(at 116.84 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 116.84 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL05B104KB54PNC"
-			(at 116.84 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 116.84 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 116.84 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "50"
+		(property "Field-1" ""
 			(at 116.84 35.56 0)
 			(effects
 				(font
@@ -22915,24 +22402,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 201.93 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 201.93 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C307331"
 			(at 201.93 238.76 0)
 			(effects
@@ -22942,52 +22411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 201.93 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 201.93 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL05B104KB54PNC"
-			(at 201.93 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 201.93 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 201.93 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "50"
+		(property "Field-1" ""
 			(at 201.93 238.76 0)
 			(effects
 				(font
@@ -23052,7 +22476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 306.07 135.89 0)
 			(effects
 				(font
@@ -23062,6 +22486,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 306.07 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 306.07 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25105"
 			(at 306.07 135.89 0)
 			(effects
 				(font
@@ -23205,6 +22647,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 297.18 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 297.18 163.83 0)
 			(effects
 				(font
@@ -23367,79 +22818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 220.98 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 220.98 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 220.98 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TCC0402C0G220J500AT"
-			(at 220.98 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors"
-			(at 220.98 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 220.98 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "CCTC"
-			(at 220.98 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 220.98 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "50"
+		(property "Field-1" ""
 			(at 220.98 72.39 0)
 			(effects
 				(font
@@ -23653,24 +23032,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 62.23 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 62.23 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C466226"
 			(at 62.23 200.66 0)
 			(effects
@@ -23680,61 +23041,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 62.23 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TCC0402C0G220J500AT"
-			(at 62.23 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors"
-			(at 62.23 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 62.23 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "CCTC"
-			(at 62.23 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 62.23 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "50"
+		(property "Field-1" ""
 			(at 62.23 200.66 0)
 			(effects
 				(font
@@ -24027,6 +23334,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 365.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac149dc1-052d-4cbd-985b-02154d295de6")
 		)
@@ -24077,7 +23393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 281.94 154.94 0)
 			(effects
 				(font
@@ -24087,6 +23403,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 281.94 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 281.94 154.94 0)
 			(effects
 				(font
@@ -24164,15 +23489,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 57.15 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C25744"
 			(at 57.15 270.51 0)
 			(effects
@@ -24182,61 +23498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "-"
-			(at 57.15 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 57.15 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 57.15 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 57.15 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors"
-			(at 57.15 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 57.15 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Uni-royal"
+		(property "Field-1" ""
 			(at 57.15 270.51 0)
 			(effects
 				(font
@@ -24389,24 +23651,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 62.23 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 62.23 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C466226"
 			(at 62.23 167.64 0)
 			(effects
@@ -24416,61 +23660,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 62.23 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TCC0402C0G220J500AT"
-			(at 62.23 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors"
-			(at 62.23 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 62.23 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "CCTC"
-			(at 62.23 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 62.23 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "50"
+		(property "Field-1" ""
 			(at 62.23 167.64 0)
 			(effects
 				(font
@@ -24555,33 +23745,6 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 146.05 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 146.05 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 146.05 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C16780"
 			(at 146.05 148.59 0)
 			(effects
@@ -24591,34 +23754,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21A476MQYNNNE"
-			(at 146.05 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 146.05 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "6"
-			(at 146.05 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "6.3"
+		(property "Field-1" ""
 			(at 146.05 148.59 0)
 			(effects
 				(font
@@ -24836,33 +23972,6 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 142.24 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 142.24 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 142.24 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C307331"
 			(at 142.24 156.21 0)
 			(effects
@@ -24872,34 +23981,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05B104KB54PNC"
-			(at 142.24 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 142.24 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 142.24 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "50"
+		(property "Field-1" ""
 			(at 142.24 156.21 0)
 			(effects
 				(font
@@ -24970,6 +24052,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 69.85 82.55 0)
 			(effects
 				(font
@@ -25064,16 +24155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 351.79 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Field-1" ""
 			(at 351.79 35.56 0)
 			(effects
 				(font
@@ -25224,6 +24306,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 246.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5d010ad9-2622-4262-be9b-642bfc37d405")
 		)
@@ -25305,61 +24396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "-"
-			(at 49.53 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 49.53 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 49.53 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "ICs"
-			(at 49.53 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 49.53 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SY8079AAC"
-			(at 49.53 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Silergy Corp"
+		(property "Field-1" ""
 			(at 49.53 260.35 0)
 			(effects
 				(font
@@ -25433,7 +24470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_UNI-ROYAL-Uniroyal-Elec-4D02WGJ0102TCE_C25726.pdf"
 			(at 194.31 115.57 0)
 			(effects
 				(font
@@ -25443,6 +24480,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 194.31 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25726"
+			(at 194.31 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 194.31 115.57 0)
 			(effects
 				(font
@@ -25519,7 +24574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 276.86 100.33 0)
 			(effects
 				(font
@@ -25529,6 +24584,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 276.86 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 276.86 100.33 0)
 			(effects
 				(font
@@ -25613,6 +24677,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 341.63 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "da37e0f1-07aa-42ae-b9b3-b92fa44322d7")
 		)
@@ -25674,6 +24747,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 252.73 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 252.73 93.98 0)
 			(effects
 				(font
@@ -25750,15 +24832,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 138.43 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C25100"
 			(at 138.43 77.47 0)
 			(effects
@@ -25768,61 +24841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "-"
-			(at 138.43 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 138.43 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 138.43 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF270JTCE"
-			(at 138.43 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors"
-			(at 138.43 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 138.43 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Uni-royal"
+		(property "Field-1" ""
 			(at 138.43 77.47 0)
 			(effects
 				(font
@@ -25887,7 +24906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110251730_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
 			(at 243.84 93.98 0)
 			(effects
 				(font
@@ -25897,6 +24916,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 243.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 243.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 243.84 93.98 0)
 			(effects
 				(font
@@ -25972,33 +25009,6 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 104.14 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 104.14 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 104.14 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C880624"
 			(at 104.14 161.29 0)
 			(effects
@@ -26008,34 +25018,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TCC0402X7R393K500AT"
-			(at 104.14 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "CCTC"
-			(at 104.14 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 104.14 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "50"
+		(property "Field-1" ""
 			(at 104.14 161.29 0)
 			(effects
 				(font
@@ -26260,79 +25243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 200.66 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "-"
-			(at 200.66 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 200.66 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors"
-			(at 200.66 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 200.66 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL05B104KB54PNC"
-			(at 200.66 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 200.66 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 200.66 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "50"
+		(property "Field-1" ""
 			(at 200.66 29.21 0)
 			(effects
 				(font
@@ -26554,24 +25465,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 82.55 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 82.55 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C602037"
 			(at 82.55 172.72 0)
 			(effects
@@ -26581,52 +25474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 82.55 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 82.55 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL21A226MAYNNNE"
-			(at 82.55 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 82.55 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 82.55 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "25"
+		(property "Field-1" ""
 			(at 82.55 172.72 0)
 			(effects
 				(font
@@ -26710,15 +25558,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 57.15 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C25744"
 			(at 57.15 172.72 0)
 			(effects
@@ -26728,61 +25567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "-"
-			(at 57.15 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 57.15 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 57.15 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 57.15 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors"
-			(at 57.15 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 57.15 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Uni-royal"
+		(property "Field-1" ""
 			(at 57.15 172.72 0)
 			(effects
 				(font
@@ -26866,24 +25651,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 22.86 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 22.86 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C307331"
 			(at 22.86 172.72 0)
 			(effects
@@ -26893,52 +25660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 22.86 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 22.86 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL05B104KB54PNC"
-			(at 22.86 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 22.86 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 22.86 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "50"
+		(property "Field-1" ""
 			(at 22.86 172.72 0)
 			(effects
 				(font
@@ -27020,6 +25742,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 232.41 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e712ec89-61c3-4a37-871e-dd4eda410205")
 		)
@@ -27081,7 +25812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 62.23 195.58 0)
 			(effects
 				(font
@@ -27091,6 +25822,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 62.23 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 62.23 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 62.23 195.58 0)
 			(effects
 				(font
@@ -27227,7 +25976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
 			(at 91.44 93.98 0)
 			(effects
 				(font
@@ -27237,6 +25986,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 91.44 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 91.44 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
 			(at 91.44 93.98 0)
 			(effects
 				(font
@@ -27451,6 +26218,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 368.3 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "4ca6ed23-d5f9-491b-8871-abff81f106d3")
 		)
@@ -27515,6 +26291,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 69.85 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 69.85 134.62 0)
 			(effects
 				(font
@@ -27744,6 +26529,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 238.76 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "be0adcba-0ff0-4a9b-a345-82dc32dcee9d")
 		)
@@ -27893,61 +26687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "-"
-			(at 49.53 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 49.53 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 49.53 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "ICs"
-			(at 49.53 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 49.53 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SY8079AAC"
-			(at 49.53 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Silergy Corp"
+		(property "Field-1" ""
 			(at 49.53 162.56 0)
 			(effects
 				(font
@@ -28040,6 +26780,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 285.75 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "495a20c6-d908-43a7-b0e2-f00a6e389a21")
 		)
@@ -28089,7 +26838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311845_UNI-ROYAL-Uniroyal-Elec-0402WGJ0203TCE_C25545.pdf"
 			(at 62.23 227.33 0)
 			(effects
 				(font
@@ -28099,6 +26848,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 62.23 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25545"
+			(at 62.23 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 62.23 227.33 0)
 			(effects
 				(font
@@ -28183,6 +26950,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 278.13 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "64b063c3-eee1-42a8-9bc0-fddb11b5532d")
 		)
@@ -28256,33 +27032,6 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 151.13 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 151.13 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 151.13 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C307331"
 			(at 151.13 148.59 0)
 			(effects
@@ -28292,34 +27041,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05B104KB54PNC"
-			(at 151.13 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 151.13 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 151.13 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "50"
+		(property "Field-1" ""
 			(at 151.13 148.59 0)
 			(effects
 				(font
@@ -28390,6 +27112,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 283.21 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 283.21 269.24 0)
 			(effects
 				(font
@@ -28674,6 +27405,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 232.41 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7e1d05be-32c0-4710-aecc-74dde1439a8c")
 		)
@@ -28741,24 +27481,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 62.23 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 62.23 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C466226"
 			(at 62.23 232.41 0)
 			(effects
@@ -28768,61 +27490,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 62.23 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TCC0402C0G220J500AT"
-			(at 62.23 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors"
-			(at 62.23 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 62.23 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "CCTC"
-			(at 62.23 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 62.23 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "50"
+		(property "Field-1" ""
 			(at 62.23 232.41 0)
 			(effects
 				(font
@@ -28887,7 +27555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110251730_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
 			(at 214.63 95.25 0)
 			(effects
 				(font
@@ -28897,6 +27565,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 214.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 214.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 214.63 95.25 0)
 			(effects
 				(font
@@ -29187,43 +27873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "ICs"
-			(at 173.99 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 173.99 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MS4344"
-			(at 173.99 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Hangzhou Ruimeng Tech"
-			(at 173.99 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
+		(property "Field-1" ""
 			(at 173.99 156.21 0)
 			(effects
 				(font
@@ -29325,15 +27975,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 57.15 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C25744"
 			(at 57.15 237.49 0)
 			(effects
@@ -29343,61 +27984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "-"
-			(at 57.15 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 57.15 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 57.15 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 57.15 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors"
-			(at 57.15 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 57.15 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Uni-royal"
+		(property "Field-1" ""
 			(at 57.15 237.49 0)
 			(effects
 				(font
@@ -29678,33 +28265,6 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 110.49 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 110.49 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 110.49 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C880624"
 			(at 110.49 161.29 0)
 			(effects
@@ -29714,34 +28274,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TCC0402X7R393K500AT"
-			(at 110.49 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "CCTC"
-			(at 110.49 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 110.49 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "50"
+		(property "Field-1" ""
 			(at 110.49 161.29 0)
 			(effects
 				(font
@@ -29820,24 +28353,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 74.93 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 74.93 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C602037"
 			(at 74.93 172.72 0)
 			(effects
@@ -29847,52 +28362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 74.93 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 74.93 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL21A226MAYNNNE"
-			(at 74.93 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 74.93 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 74.93 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "25"
+		(property "Field-1" ""
 			(at 74.93 172.72 0)
 			(effects
 				(font
@@ -29959,7 +28429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 139.7 237.49 0)
 			(effects
 				(font
@@ -29969,6 +28439,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 139.7 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 139.7 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 139.7 237.49 0)
 			(effects
 				(font
@@ -30027,7 +28515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
 			(at 91.44 100.33 0)
 			(effects
 				(font
@@ -30037,6 +28525,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 91.44 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 91.44 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
 			(at 91.44 100.33 0)
 			(effects
 				(font
@@ -30189,61 +28695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "-"
-			(at 62.23 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 62.23 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 62.23 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Inductors"
-			(at 62.23 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MCS20FC-2R2MHC"
-			(at 62.23 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "PSA"
-			(at 62.23 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
+		(property "Field-1" ""
 			(at 62.23 257.81 0)
 			(effects
 				(font
@@ -30327,15 +28779,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 40.64 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C25744"
 			(at 40.64 237.49 0)
 			(effects
@@ -30345,61 +28788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "-"
-			(at 40.64 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 40.64 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 40.64 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 40.64 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors"
-			(at 40.64 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 40.64 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Uni-royal"
+		(property "Field-1" ""
 			(at 40.64 237.49 0)
 			(effects
 				(font
@@ -30531,7 +28920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110251730_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
 			(at 306.07 151.13 0)
 			(effects
 				(font
@@ -30541,6 +28930,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 306.07 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 306.07 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 306.07 151.13 0)
 			(effects
 				(font
@@ -30617,6 +29024,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 208.28 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69f7ee4c-fee2-4345-a4df-8b69cc4a86e1")
 		)
@@ -30675,7 +29091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 347.98 138.43 0)
 			(effects
 				(font
@@ -30685,6 +29101,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 347.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 347.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 347.98 138.43 0)
 			(effects
 				(font
@@ -30965,6 +29399,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 398.78 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 398.78 173.99 0)
 			(effects
 				(font
@@ -31286,6 +29729,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 325.12 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "d1c04848-5fb9-4fc2-a38a-110fbe78ef3f")
 		)
@@ -31547,6 +29999,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 218.44 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f61cc774-7dd3-4ca7-80cb-7fb3a4132954")
 		)
@@ -31667,7 +30128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGJ0101TCE_C25138.pdf"
 			(at 203.2 67.31 0)
 			(effects
 				(font
@@ -31677,6 +30138,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 203.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25138"
+			(at 203.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 203.2 67.31 0)
 			(effects
 				(font
@@ -31758,15 +30237,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 62.23 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C26980"
 			(at 62.23 260.35 0)
 			(effects
@@ -31776,61 +30246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "-"
-			(at 62.23 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 62.23 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 62.23 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF4532TCE"
-			(at 62.23 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors"
-			(at 62.23 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 62.23 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Uni-royal"
+		(property "Field-1" ""
 			(at 62.23 260.35 0)
 			(effects
 				(font
@@ -32057,24 +30473,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 22.86 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 22.86 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C307331"
 			(at 22.86 237.49 0)
 			(effects
@@ -32084,52 +30482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 22.86 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 22.86 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL05B104KB54PNC"
-			(at 22.86 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 22.86 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 22.86 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "50"
+		(property "Field-1" ""
 			(at 22.86 237.49 0)
 			(effects
 				(font
@@ -32417,6 +30770,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 273.05 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "100ecfb7-9bb3-417c-842b-ea4d9c067a23")
 		)
@@ -32472,7 +30834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
 			(at 313.69 102.87 0)
 			(effects
 				(font
@@ -32482,6 +30844,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 313.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 313.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
 			(at 313.69 102.87 0)
 			(effects
 				(font
@@ -32542,7 +30922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGJ0512TCE_C25941.pdf"
 			(at 45.72 25.4 0)
 			(effects
 				(font
@@ -32551,7 +30931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic part"
+		(property "Description" ""
 			(at 45.72 25.4 0)
 			(effects
 				(font
@@ -32560,8 +30940,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 45.72 25.4 0)
+		(property "LCSC" "C25941"
+			(at 45.72 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32569,70 +30949,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 45.72 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "-"
-			(at 45.72 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 45.72 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 45.72 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 45.72 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors"
-			(at 45.72 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 45.72 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Uni-royal"
+		(property "Field-1" ""
 			(at 45.72 25.4 0)
 			(effects
 				(font
@@ -32770,7 +31087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 220.98 187.96 0)
 			(effects
 				(font
@@ -32780,6 +31097,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 220.98 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 220.98 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 220.98 187.96 0)
 			(effects
 				(font
@@ -32857,24 +31192,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 214.63 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 214.63 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C307331"
 			(at 214.63 238.76 0)
 			(effects
@@ -32884,52 +31201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 214.63 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 214.63 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL05B104KB54PNC"
-			(at 214.63 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 214.63 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 214.63 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "50"
+		(property "Field-1" ""
 			(at 214.63 238.76 0)
 			(effects
 				(font
@@ -33083,15 +31355,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 135.89 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C423288"
 			(at 135.89 153.67 0)
 			(effects
@@ -33101,61 +31364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "-"
-			(at 135.89 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 135.89 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 135.89 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGD3300TCE"
-			(at 135.89 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors"
-			(at 135.89 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 135.89 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Uni-royal"
+		(property "Field-1" ""
 			(at 135.89 153.67 0)
 			(effects
 				(font
@@ -33351,7 +31560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
 			(at 55.88 76.2 0)
 			(effects
 				(font
@@ -33361,6 +31570,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 55.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 55.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
 			(at 55.88 76.2 0)
 			(effects
 				(font
@@ -33437,15 +31664,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 135.89 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C423288"
 			(at 135.89 156.21 0)
 			(effects
@@ -33455,61 +31673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "-"
-			(at 135.89 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 135.89 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 135.89 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGD3300TCE"
-			(at 135.89 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors"
-			(at 135.89 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 135.89 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Uni-royal"
+		(property "Field-1" ""
 			(at 135.89 156.21 0)
 			(effects
 				(font
@@ -33706,7 +31870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 306.07 138.43 0)
 			(effects
 				(font
@@ -33716,6 +31880,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 306.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 306.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25105"
 			(at 306.07 138.43 0)
 			(effects
 				(font
@@ -33783,6 +31965,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 62.23 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C26980"
+			(at 62.23 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 62.23 162.56 0)
 			(effects
 				(font
@@ -33866,24 +32066,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 31.75 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 31.75 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C602037"
 			(at 31.75 237.49 0)
 			(effects
@@ -33893,52 +32075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 31.75 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 31.75 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL21A226MAYNNNE"
-			(at 31.75 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 31.75 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 31.75 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "25"
+		(property "Field-1" ""
 			(at 31.75 237.49 0)
 			(effects
 				(font
@@ -34005,7 +32142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 347.98 165.1 0)
 			(effects
 				(font
@@ -34015,6 +32152,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 347.98 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 347.98 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 347.98 165.1 0)
 			(effects
 				(font
@@ -34101,61 +32256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 196.85 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 196.85 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 196.85 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL05B104KB54PNC"
-			(at 196.85 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 196.85 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 196.85 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "50"
+		(property "Field-1" ""
 			(at 196.85 166.37 0)
 			(effects
 				(font
@@ -34236,6 +32337,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 353.06 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "cfd5f39d-1338-4a51-883f-540de62b38d3")
 		)
@@ -34299,6 +32409,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 386.08 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 386.08 128.27 0)
 			(effects
 				(font
@@ -34374,24 +32493,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 82.55 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 82.55 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C602037"
 			(at 82.55 237.49 0)
 			(effects
@@ -34401,52 +32502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 82.55 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 82.55 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL21A226MAYNNNE"
-			(at 82.55 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 82.55 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 82.55 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "25"
+		(property "Field-1" ""
 			(at 82.55 237.49 0)
 			(effects
 				(font
@@ -34539,61 +32595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 204.47 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 204.47 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 204.47 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL05A105KQ5NNNC"
-			(at 204.47 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 204.47 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "6"
-			(at 204.47 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "6.3"
+		(property "Field-1" ""
 			(at 204.47 166.37 0)
 			(effects
 				(font
@@ -34749,6 +32751,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 397.51 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "729ceb80-6b57-4d6c-a17e-0534ac389ce0")
 		)
@@ -34865,7 +32876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
 			(at 214.63 170.18 0)
 			(effects
 				(font
@@ -34875,6 +32886,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 214.63 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 214.63 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
 			(at 214.63 170.18 0)
 			(effects
 				(font
@@ -35150,24 +33179,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 62.23 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 62.23 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C466226"
 			(at 62.23 265.43 0)
 			(effects
@@ -35177,61 +33188,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "YAGEO"
-			(at 62.23 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TCC0402C0G220J500AT"
-			(at 62.23 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors"
-			(at 62.23 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 62.23 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "CCTC"
-			(at 62.23 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 62.23 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "50"
+		(property "Field-1" ""
 			(at 62.23 265.43 0)
 			(effects
 				(font
@@ -35463,61 +33420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "-"
-			(at 49.53 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 49.53 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 49.53 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "ICs"
-			(at 49.53 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 49.53 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SY8079AAC"
-			(at 49.53 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Silergy Corp"
+		(property "Field-1" ""
 			(at 49.53 195.58 0)
 			(effects
 				(font
@@ -35593,7 +33496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 285.75 147.32 0)
 			(effects
 				(font
@@ -35603,6 +33506,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 285.75 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 285.75 147.32 0)
 			(effects
 				(font
@@ -35672,6 +33584,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 69.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 69.85 105.41 0)
 			(effects
 				(font
@@ -35751,6 +33672,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 193.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 193.04 95.25 0)
 			(effects
 				(font
@@ -36365,24 +34295,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 31.75 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 31.75 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C602037"
 			(at 31.75 270.51 0)
 			(effects
@@ -36392,52 +34304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 31.75 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 31.75 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL21A226MAYNNNE"
-			(at 31.75 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 31.75 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 31.75 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "25"
+		(property "Field-1" ""
 			(at 31.75 270.51 0)
 			(effects
 				(font
@@ -36504,7 +34371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
 			(at 355.6 123.19 0)
 			(effects
 				(font
@@ -36514,6 +34381,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 355.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 355.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
 			(at 355.6 123.19 0)
 			(effects
 				(font
@@ -36574,7 +34459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
 			(at 370.84 123.19 0)
 			(effects
 				(font
@@ -36584,6 +34469,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 370.84 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 370.84 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
 			(at 370.84 123.19 0)
 			(effects
 				(font
@@ -36808,70 +34711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 190.5 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "-"
-			(at 190.5 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 190.5 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 190.5 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF1001TCE"
-			(at 190.5 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors"
-			(at 190.5 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 190.5 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Uni-royal"
+		(property "Field-1" ""
 			(at 190.5 59.69 0)
 			(effects
 				(font
@@ -36962,61 +34802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "-"
-			(at 62.23 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 62.23 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 62.23 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Inductors"
-			(at 62.23 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MCS20FC-2R2MHC"
-			(at 62.23 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "PSA"
-			(at 62.23 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
+		(property "Field-1" ""
 			(at 62.23 224.79 0)
 			(effects
 				(font
@@ -37099,33 +34885,6 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 142.24 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 142.24 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 142.24 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C307331"
 			(at 142.24 153.67 0)
 			(effects
@@ -37135,34 +34894,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05B104KB54PNC"
-			(at 142.24 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 142.24 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 142.24 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "50"
+		(property "Field-1" ""
 			(at 142.24 153.67 0)
 			(effects
 				(font
@@ -37231,6 +34963,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 121.92 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 121.92 49.53 0)
 			(effects
 				(font
@@ -37314,24 +35055,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 22.86 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 22.86 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C307331"
 			(at 22.86 270.51 0)
 			(effects
@@ -37341,52 +35064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 22.86 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 22.86 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL05B104KB54PNC"
-			(at 22.86 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 22.86 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 22.86 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "50"
+		(property "Field-1" ""
 			(at 22.86 270.51 0)
 			(effects
 				(font
@@ -37536,46 +35214,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "1.6.1"
-			(at 163.83 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.9 mm"
-			(at 163.83 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 163.83 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Raspberry Pi"
-			(at 163.83 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C2040"
 			(at 163.83 87.63 0)
 			(effects
@@ -37585,43 +35223,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RP2040"
-			(at 163.83 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Raspberry Pi"
-			(at 163.83 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "Y"
-			(at 163.83 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "ICs"
-			(at 163.83 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "N"
+		(property "Field-1" ""
 			(at 163.83 87.63 0)
 			(effects
 				(font
@@ -37835,7 +35437,7 @@
 				)
 			)
 		)
-		(property "Value" "TP"
+		(property "Value" "TOUCH"
 			(at 19.05 74.295 0)
 			(effects
 				(font
@@ -37862,6 +35464,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 19.05 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 19.05 85.09 0)
 			(effects
 				(font
@@ -38006,7 +35617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
 			(at 370.84 151.13 0)
 			(effects
 				(font
@@ -38016,6 +35627,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 370.84 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 370.84 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
 			(at 370.84 151.13 0)
 			(effects
 				(font
@@ -38582,79 +36211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 151.13 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "-"
-			(at 151.13 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 151.13 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors"
-			(at 151.13 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 151.13 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL05A105KQ5NNNC"
-			(at 151.13 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 151.13 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "6"
-			(at 151.13 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "6.3"
+		(property "Field-1" ""
 			(at 151.13 29.21 0)
 			(effects
 				(font
@@ -38805,6 +36362,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 384.81 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ed027e2d-511a-4cea-b76d-7e02507def5c")
 		)
@@ -38937,6 +36503,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 346.71 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 346.71 44.45 0)
 			(effects
 				(font
@@ -39171,6 +36746,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 149.86 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c73a2222-b761-4840-a8b7-8bce35497d81")
 		)
@@ -39331,24 +36915,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 74.93 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 74.93 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C602037"
 			(at 74.93 237.49 0)
 			(effects
@@ -39358,52 +36924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 74.93 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 74.93 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL21A226MAYNNNE"
-			(at 74.93 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 74.93 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 74.93 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "25"
+		(property "Field-1" ""
 			(at 74.93 237.49 0)
 			(effects
 				(font
@@ -39818,7 +37339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 214.63 187.96 0)
 			(effects
 				(font
@@ -39828,6 +37349,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 214.63 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 214.63 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 214.63 187.96 0)
 			(effects
 				(font
@@ -39898,6 +37437,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 288.29 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 288.29 269.24 0)
 			(effects
 				(font
@@ -39986,61 +37534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "-"
-			(at 92.71 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 92.71 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 92.71 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Connectors"
-			(at 92.71 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C18594"
-			(at 92.71 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Boomele"
-			(at 92.71 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
+		(property "Field-1" ""
 			(at 92.71 156.21 0)
 			(effects
 				(font
@@ -40102,7 +37596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110251730_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
 			(at 306.07 143.51 0)
 			(effects
 				(font
@@ -40112,6 +37606,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 306.07 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 306.07 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 306.07 143.51 0)
 			(effects
 				(font
@@ -40189,24 +37701,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 170.18 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 170.18 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C307331"
 			(at 170.18 238.76 0)
 			(effects
@@ -40216,52 +37710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 170.18 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 170.18 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL05B104KB54PNC"
-			(at 170.18 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 170.18 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 170.18 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "50"
+		(property "Field-1" ""
 			(at 170.18 238.76 0)
 			(effects
 				(font
@@ -40396,7 +37845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGJ0101TCE_C25138.pdf"
 			(at 203.2 62.23 0)
 			(effects
 				(font
@@ -40406,6 +37855,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 203.2 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25138"
+			(at 203.2 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 203.2 62.23 0)
 			(effects
 				(font
@@ -40499,61 +37966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 212.09 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "-"
-			(at 212.09 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 212.09 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Oscillators"
-			(at 212.09 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 212.09 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "S3212000181080"
-			(at 212.09 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JGHC"
+		(property "Field-1" ""
 			(at 212.09 74.93 0)
 			(effects
 				(font
@@ -40697,7 +38110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 363.22 165.1 0)
 			(effects
 				(font
@@ -40707,6 +38120,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 363.22 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 363.22 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 363.22 165.1 0)
 			(effects
 				(font
@@ -40996,79 +38427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 128.27 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "-"
-			(at 128.27 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 128.27 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors"
-			(at 128.27 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 128.27 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL05B104KB54PNC"
-			(at 128.27 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 128.27 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 128.27 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "50"
+		(property "Field-1" ""
 			(at 128.27 35.56 0)
 			(effects
 				(font
@@ -41151,6 +38510,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 208.28 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c80c16f8-2609-4980-87dd-6432b2718c8e")
 		)
@@ -41219,6 +38587,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 193.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 193.04 100.33 0)
 			(effects
 				(font
@@ -41342,7 +38719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
 			(at 290.83 154.94 0)
 			(effects
 				(font
@@ -41352,6 +38729,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 290.83 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 290.83 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
 			(at 290.83 154.94 0)
 			(effects
 				(font
@@ -41428,15 +38823,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 138.43 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C25100"
 			(at 138.43 80.01 0)
 			(effects
@@ -41446,61 +38832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "-"
-			(at 138.43 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 138.43 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 138.43 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF270JTCE"
-			(at 138.43 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors"
-			(at 138.43 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 138.43 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Uni-royal"
+		(property "Field-1" ""
 			(at 138.43 80.01 0)
 			(effects
 				(font
@@ -41564,7 +38896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311845_UNI-ROYAL-Uniroyal-Elec-0402WGJ0104TCE_C25530.pdf"
 			(at 374.65 15.24 0)
 			(effects
 				(font
@@ -41582,7 +38914,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25530"
+			(at 374.65 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 374.65 15.24 0)
 			(effects
 				(font
@@ -41643,7 +38984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
 			(at 309.88 102.87 0)
 			(effects
 				(font
@@ -41653,6 +38994,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 309.88 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 309.88 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
 			(at 309.88 102.87 0)
 			(effects
 				(font
@@ -41731,6 +39090,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 193.04 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "120dcf8f-8d08-4c66-baee-0474e3ad48b1")
 		)
@@ -41797,24 +39165,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 189.23 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 189.23 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C602037"
 			(at 189.23 238.76 0)
 			(effects
@@ -41824,52 +39174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 189.23 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 189.23 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL21A226MAYNNNE"
-			(at 189.23 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 189.23 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 189.23 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "25"
+		(property "Field-1" ""
 			(at 189.23 238.76 0)
 			(effects
 				(font
@@ -41948,6 +39253,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 368.3 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 368.3 162.56 0)
 			(effects
 				(font
@@ -42035,61 +39349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "-"
-			(at 62.23 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 62.23 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 62.23 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Inductors"
-			(at 62.23 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MCS20FC-2R2MHC"
-			(at 62.23 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "PSA"
-			(at 62.23 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
+		(property "Field-1" ""
 			(at 62.23 160.02 0)
 			(effects
 				(font
@@ -42154,7 +39414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
 			(at 162.56 240.03 0)
 			(effects
 				(font
@@ -42164,6 +39424,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 162.56 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 162.56 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
 			(at 162.56 240.03 0)
 			(effects
 				(font
@@ -42223,7 +39501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311845_UNI-ROYAL-Uniroyal-Elec-0402WGJ0104TCE_C25530.pdf"
 			(at 322.58 95.25 0)
 			(effects
 				(font
@@ -42233,6 +39511,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 322.58 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 322.58 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25530"
 			(at 322.58 95.25 0)
 			(effects
 				(font
@@ -42361,7 +39657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 363.22 138.43 0)
 			(effects
 				(font
@@ -42371,6 +39667,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 363.22 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 363.22 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 363.22 138.43 0)
 			(effects
 				(font
@@ -42587,24 +39901,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 82.55 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 82.55 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C602037"
 			(at 82.55 205.74 0)
 			(effects
@@ -42614,52 +39910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 82.55 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 82.55 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL21A226MAYNNNE"
-			(at 82.55 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 82.55 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 82.55 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "25"
+		(property "Field-1" ""
 			(at 82.55 205.74 0)
 			(effects
 				(font
@@ -42819,79 +40070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 170.18 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "-"
-			(at 170.18 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 170.18 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors"
-			(at 170.18 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 170.18 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL05B104KB54PNC"
-			(at 170.18 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 170.18 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 170.18 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "50"
+		(property "Field-1" ""
 			(at 170.18 29.21 0)
 			(effects
 				(font
@@ -42966,6 +40145,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 208.28 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 208.28 118.11 0)
 			(effects
 				(font
@@ -43129,79 +40317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 160.02 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "-"
-			(at 160.02 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 160.02 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors"
-			(at 160.02 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 160.02 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL05B104KB54PNC"
-			(at 160.02 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 160.02 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 160.02 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "50"
+		(property "Field-1" ""
 			(at 160.02 29.21 0)
 			(effects
 				(font
@@ -43267,7 +40383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGJ0512TCE_C25941.pdf"
 			(at 45.72 27.94 0)
 			(effects
 				(font
@@ -43276,7 +40392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic part"
+		(property "Description" ""
 			(at 45.72 27.94 0)
 			(effects
 				(font
@@ -43285,8 +40401,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 45.72 27.94 0)
+		(property "LCSC" "C25941"
+			(at 45.72 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43294,70 +40410,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 45.72 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "-"
-			(at 45.72 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 45.72 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 45.72 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 45.72 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors"
-			(at 45.72 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 45.72 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Uni-royal"
+		(property "Field-1" ""
 			(at 45.72 27.94 0)
 			(effects
 				(font
@@ -43441,24 +40494,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 31.75 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 31.75 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C602037"
 			(at 31.75 172.72 0)
 			(effects
@@ -43468,52 +40503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 31.75 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 31.75 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL21A226MAYNNNE"
-			(at 31.75 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 31.75 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 31.75 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "25"
+		(property "Field-1" ""
 			(at 31.75 172.72 0)
 			(effects
 				(font
@@ -43578,7 +40568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
 			(at 220.98 170.18 0)
 			(effects
 				(font
@@ -43588,6 +40578,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 220.98 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 220.98 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
 			(at 220.98 170.18 0)
 			(effects
 				(font
@@ -43672,70 +40680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 134.62 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "-"
-			(at 134.62 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 134.62 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 134.62 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF1001TCE"
-			(at 134.62 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors"
-			(at 134.62 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 134.62 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Uni-royal"
+		(property "Field-1" ""
 			(at 134.62 49.53 0)
 			(effects
 				(font
@@ -43800,7 +40745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 285.75 102.87 0)
 			(effects
 				(font
@@ -43810,6 +40755,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 285.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 285.75 102.87 0)
 			(effects
 				(font
@@ -43888,24 +40842,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 74.93 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 74.93 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C602037"
 			(at 74.93 270.51 0)
 			(effects
@@ -43915,52 +40851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 74.93 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 74.93 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL21A226MAYNNNE"
-			(at 74.93 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 74.93 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 74.93 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "25"
+		(property "Field-1" ""
 			(at 74.93 270.51 0)
 			(effects
 				(font
@@ -44027,7 +40918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205251630_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf"
 			(at 30.48 35.56 0)
 			(effects
 				(font
@@ -44036,7 +40927,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Korean Hroparts Elec TYPE-C-31-M-12"
+			(at 26.67 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C165948"
+			(at 26.67 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 26.67 35.56 0)
 			(effects
 				(font
@@ -44231,15 +41140,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 40.64 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C25744"
 			(at 40.64 205.74 0)
 			(effects
@@ -44249,61 +41149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "-"
-			(at 40.64 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 40.64 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 40.64 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 40.64 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors"
-			(at 40.64 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 40.64 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Uni-royal"
+		(property "Field-1" ""
 			(at 40.64 205.74 0)
 			(effects
 				(font
@@ -44387,15 +41233,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 40.64 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C25744"
 			(at 40.64 172.72 0)
 			(effects
@@ -44405,61 +41242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "-"
-			(at 40.64 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 40.64 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 40.64 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 40.64 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors"
-			(at 40.64 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 40.64 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Uni-royal"
+		(property "Field-1" ""
 			(at 40.64 172.72 0)
 			(effects
 				(font
@@ -44535,6 +41318,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 209.55 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 209.55 100.33 0)
 			(effects
 				(font
@@ -44874,7 +41666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
 			(at 355.6 151.13 0)
 			(effects
 				(font
@@ -44884,6 +41676,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 355.6 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 355.6 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
 			(at 355.6 151.13 0)
 			(effects
 				(font
@@ -44961,15 +41771,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 57.15 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C25744"
 			(at 57.15 205.74 0)
 			(effects
@@ -44979,61 +41780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "-"
-			(at 57.15 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 57.15 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 57.15 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 57.15 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors"
-			(at 57.15 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 57.15 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Uni-royal"
+		(property "Field-1" ""
 			(at 57.15 205.74 0)
 			(effects
 				(font
@@ -45126,79 +41873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 105.41 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "-"
-			(at 105.41 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 105.41 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors"
-			(at 105.41 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 105.41 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL05A105KQ5NNNC"
-			(at 105.41 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 105.41 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "6"
-			(at 105.41 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "6.3"
+		(property "Field-1" ""
 			(at 105.41 35.56 0)
 			(effects
 				(font
@@ -45428,6 +42103,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field-1" ""
+			(at 353.06 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "7955e126-5b7a-48ec-8c0d-0ae80e5e76e1")
 		)
@@ -45642,79 +42326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 95.25 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "-"
-			(at 95.25 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 95.25 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors"
-			(at 95.25 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 95.25 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL05B104KB54PNC"
-			(at 95.25 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 95.25 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 95.25 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "50"
+		(property "Field-1" ""
 			(at 95.25 63.5 0)
 			(effects
 				(font
@@ -45807,79 +42419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 180.34 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "-"
-			(at 180.34 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 180.34 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitors"
-			(at 180.34 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 180.34 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL05B104KB54PNC"
-			(at 180.34 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 180.34 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 180.34 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "50"
+		(property "Field-1" ""
 			(at 180.34 29.21 0)
 			(effects
 				(font
@@ -45992,7 +42532,7 @@
 				)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "47k"
 			(at 389.89 17.145 90)
 			(effects
 				(font
@@ -46009,7 +42549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311845_UNI-ROYAL-Uniroyal-Elec-0402WGJ0473TCE_C25563.pdf"
 			(at 389.89 15.24 0)
 			(effects
 				(font
@@ -46027,7 +42567,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25563"
+			(at 389.89 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
 			(at 389.89 15.24 0)
 			(effects
 				(font
@@ -46246,43 +42795,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SG-210STF 12.0000ML0"
-			(at 200.66 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Seiko Epson"
-			(at 200.66 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Oscillators"
-			(at 200.66 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 200.66 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
+		(property "Field-1" ""
 			(at 200.66 196.85 0)
 			(effects
 				(font
@@ -46444,24 +42957,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 74.93 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 74.93 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C602037"
 			(at 74.93 205.74 0)
 			(effects
@@ -46471,52 +42966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 74.93 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 74.93 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL21A226MAYNNNE"
-			(at 74.93 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 74.93 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 74.93 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "25"
+		(property "Field-1" ""
 			(at 74.93 205.74 0)
 			(effects
 				(font
@@ -46607,70 +43057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 203.2 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "-"
-			(at 203.2 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 203.2 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "UNI-ROYAL"
-			(at 203.2 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF1001TCE"
-			(at 203.2 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors"
-			(at 203.2 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 203.2 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Uni-royal"
+		(property "Field-1" ""
 			(at 203.2 77.47 0)
 			(effects
 				(font
@@ -46801,7 +43188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF330JTCE_C25105.pdf"
 			(at 219.71 196.85 0)
 			(effects
 				(font
@@ -46811,6 +43198,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 219.71 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 219.71 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25105"
 			(at 219.71 196.85 0)
 			(effects
 				(font
@@ -46889,24 +43294,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 82.55 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sponsored" "N"
-			(at 82.55 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C602037"
 			(at 82.55 270.51 0)
 			(effects
@@ -46916,52 +43303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "Capacitors"
-			(at 82.55 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Buy early" "Y"
-			(at 82.55 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL21A226MAYNNNE"
-			(at 82.55 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 82.55 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimal voltage rating" "10"
-			(at 82.55 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "25"
+		(property "Field-1" ""
 			(at 82.55 270.51 0)
 			(effects
 				(font
