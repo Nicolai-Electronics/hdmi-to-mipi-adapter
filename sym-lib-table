@@ -8,4 +8,5 @@
   (lib (name "Simple_Addon_v2")(type "Legacy")(uri "/home/renze/Documents/Badge.team/MCH2022/mch2022-badge-hardware/Simple_Addon_v2.lib")(options "")(descr ""))
   (lib (name "JS1400BFQ")(type "Legacy")(uri "/home/renze/Documents/Badge.team/MCH2022/mch2022-badge-hardware/JS1400BFQ.lib")(options "")(descr ""))
   (lib (name "RP2040")(type "Legacy")(uri "/home/renze/Documents/Badge.team/MCH2022/mch2022-badge-hardware/RP2040.lib")(options "")(descr ""))
+  (lib (name "lp3382s")(type "KiCad")(uri "${KIPRJMOD}/lp3382s.kicad_sym")(options "")(descr ""))
 )

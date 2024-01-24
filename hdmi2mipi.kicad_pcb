@@ -1,5 +1,5 @@
 (kicad_pcb
-	(version 20231212)
+	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "7.99")
 	(general
@@ -204,7 +204,7 @@
 	(net 59 "/RP_BTN")
 	(net 60 "Net-(J7-Pin_1)")
 	(net 61 "Net-(J7-Pin_3)")
-	(net 62 "Net-(J3-3.3-S2)")
+	(net 62 "Net-(D5-K)")
 	(net 63 "Net-(J3-3.3-S1)")
 	(net 64 "Net-(J3-1.8-S2)")
 	(net 65 "Net-(J3-1.8-S1)")
@@ -256,10 +256,10 @@
 	(net 111 "unconnected-(J3-Pad4)")
 	(net 112 "Net-(J3-FB2-Pad5)")
 	(net 113 "unconnected-(J3-Pad7)")
-	(net 114 "Net-(J3-LED+-Pad10)")
+	(net 114 "Net-(J3-5.8v-VDD)")
 	(net 115 "unconnected-(J3-Pad11)")
-	(net 116 "unconnected-(J3-5.8v-VEE-Pad13)")
-	(net 117 "unconnected-(J3-5.8v-VDD-Pad14)")
+	(net 116 "Net-(J3-5.8v-VEE)")
+	(net 117 "BL_EN")
 	(net 118 "unconnected-(J3-Pad16)")
 	(net 119 "unconnected-(J3-Pad18)")
 	(net 120 "unconnected-(J3-Pad21)")
@@ -291,8 +291,8 @@
 	(net 146 "unconnected-(U7-GPIO7-Pad9)")
 	(net 147 "unconnected-(U7-GPIO8-Pad11)")
 	(net 148 "unconnected-(U7-GPIO9-Pad12)")
-	(net 149 "unconnected-(U7-GPIO18-Pad29)")
-	(net 150 "unconnected-(U7-GPIO19-Pad30)")
+	(net 149 "Net-(U12-FB)")
+	(net 150 "Net-(C54-Pad1)")
 	(net 151 "unconnected-(U7-GPIO20-Pad31)")
 	(net 152 "unconnected-(U7-GPIO21-Pad32)")
 	(net 153 "unconnected-(U7-GPIO29{slash}ADC3-Pad41)")
@@ -308,6 +308,8 @@
 	(net 163 "Net-(U2-A_SD0)")
 	(net 164 "Net-(U2-A_WFS)")
 	(net 165 "Net-(U2-A_SCK)")
+	(net 166 "BL_PWM")
+	(net 167 "Net-(D5-A)")
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "00521a90-146f-4c5b-99f6-bdbe681b1c88")
@@ -336,7 +338,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -348,7 +350,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -479,7 +481,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/5f803136-28b5-47e7-924d-3551c0b4ae4b")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -651,7 +655,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -675,7 +679,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -687,7 +691,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/5bdb577a-f1dd-431e-b60d-aa992d2d8358")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -861,7 +867,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -885,7 +891,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -897,7 +903,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/b98d9f56-bbce-4689-a79d-e48d67d5f3cc")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -1062,7 +1070,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1074,7 +1082,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006102223_Samsung-Electro-Mechanics-CL21A226MAYNNNE_C602037.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1205,7 +1213,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/ff0353dd-1688-4809-9dd5-c62a2e69022f")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1377,7 +1387,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1401,7 +1411,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1413,7 +1423,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/e4712e57-3bc6-4b5f-9cc1-eec0f531943d")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1585,7 +1597,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1597,7 +1609,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1609,7 +1621,7 @@
 				)
 			)
 		)
-		(property "Description" "0.1A Ic, 65V Vce, NPN Transistor, SOT-23"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1621,7 +1633,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/1add044c-ff15-45f5-8207-7755097cf130")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1835,7 +1849,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1859,7 +1873,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1871,7 +1885,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/68b0c9bc-93ad-42e6-ba42-191c391a7947")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2043,7 +2059,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2067,7 +2083,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2079,7 +2095,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/603c73d4-d5cf-4afa-81a3-846d0c4c682d")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2251,7 +2269,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2263,7 +2281,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809050356_Silergy-Corp-SY8079AAC_C133751.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2383,7 +2401,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/12b49ac7-4daa-4d10-bb4a-3e091599b9c0")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2617,7 +2637,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2641,7 +2661,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2653,7 +2673,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/d51fc1a4-2b92-40b9-801f-d066a05a5482")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2825,7 +2847,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2849,7 +2871,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2861,7 +2883,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/34f7acce-74c0-4c8f-b947-069d900ec2a9")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3033,7 +3057,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3045,7 +3069,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3176,7 +3200,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/e3ac8a02-86db-4386-8bd6-1759b0ac4889")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3320,6 +3346,118 @@
 			)
 		)
 	)
+	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
+		(layer "F.Cu")
+		(uuid "1053cc6a-d8fd-4d51-9ef9-4de59cb65f58")
+		(at -49.39 -38.93)
+		(descr "SMD pad as test Point, diameter 2.0mm")
+		(tags "test point SMD pad")
+		(property "Reference" "TP5"
+			(at 0 -1.998 0)
+			(layer "F.SilkS")
+			(uuid "7069b83d-e1ad-409c-a90c-f6bbd05595f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "d753df9c-a65c-4e21-a12e-1bc2886bdbdd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "758835dd-f809-4dde-b5ba-a3123d8b5afe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a39f5865-0770-4b5a-ac83-5fec220b1f78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f8d8544-13b2-4e52-bd3a-aa2647d8c82a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/178e8d1a-821b-487e-bf83-8665812e7464")
+		(sheetname "Root")
+		(sheetfile "hdmi2mipi.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "9aa0d024-51c3-4de2-9ca3-c210e8b95459")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.5 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "5b993cbf-08a2-4bae-aea6-c36a94db969a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2 0)
+			(layer "F.Fab")
+			(uuid "bfdf0aeb-437d-4fce-a9b0-9284aa5561dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 2 2)
+			(layers "F.Cu" "F.Mask")
+			(net 114 "Net-(J3-5.8v-VDD)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "23d95994-bc1b-425d-801e-9cf5ca44e55c")
+		)
+	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "1068cd7d-f3aa-4715-bb28-e2c48797b2cb")
@@ -3348,7 +3486,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3372,7 +3510,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3384,7 +3522,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/7f787cd0-6320-476f-931a-954f1eeaa0b0")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3554,7 +3694,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:Inductor_MSC20FC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3566,7 +3706,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_PSA-Prosperity-Dielectrics-MCS20FC-2R2MHC_C375944.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3686,7 +3826,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/5f202ed8-61f9-4e80-9b9a-5097919a0b40")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -3768,7 +3910,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3780,7 +3922,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006102223_Samsung-Electro-Mechanics-CL21A226MAYNNNE_C602037.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3911,7 +4053,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/9c15f509-3763-4ce3-9703-b04a0754f626")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4083,7 +4227,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4095,7 +4239,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4226,7 +4370,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/42f02a02-c6a7-48bb-9d91-ed2504f077c8")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4398,7 +4544,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4422,7 +4568,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4434,7 +4580,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/9e50c96f-1fda-4d57-a55a-558cca0cd17c")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4606,7 +4754,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4618,7 +4766,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110252230_UNI-ROYAL-Uniroyal-Elec-0402WGF270JTCE_C25100.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4749,7 +4897,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/ce5a69e0-84f8-4c26-b7f7-8986c81e080f")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4893,6 +5043,229 @@
 			)
 		)
 	)
+	(footprint "Resistor_SMD:R_0402_1005Metric"
+		(layer "F.Cu")
+		(uuid "18f0bebe-0709-4512-9623-c498e46b2391")
+		(at -69.13 -31.395)
+		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor")
+		(property "Reference" "R2"
+			(at 0 -1.17 0)
+			(layer "F.SilkS")
+			(uuid "adddd614-4e9e-452c-bf01-69ce079b3487")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 0 1.17 0)
+			(layer "F.Fab")
+			(uuid "7b986af3-f57d-4125-a414-cc21955b4697")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95eabf0b-d196-492e-a0a6-8c3898456de6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a8e9c66-7877-49fc-b986-c6f31c03e3be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic part"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ca92ef6-6f13-45eb-a0f0-3941c26a62f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23c6bde9-fc38-4434-9f6d-82fea35254d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/14800091-60d8-4072-91a0-fccb0836f291")
+		(sheetname "Root")
+		(sheetfile "hdmi2mipi.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.153641 -0.38)
+			(end 0.153641 -0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "29578d4b-9542-43f0-923b-0e3ba9320da2")
+		)
+		(fp_line
+			(start -0.153641 0.38)
+			(end 0.153641 0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3f3a62c7-8550-4ceb-8568-9d03a500bb7b")
+		)
+		(fp_line
+			(start -0.93 -0.47)
+			(end 0.93 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bc2b2f4d-3e4a-447f-9c8c-e136d3931bd0")
+		)
+		(fp_line
+			(start -0.93 0.47)
+			(end -0.93 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "71b3ff3b-f6ab-480d-94b2-1fa22beb059b")
+		)
+		(fp_line
+			(start 0.93 -0.47)
+			(end 0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1b2b9294-8dfc-43b1-be26-6e488f973fe6")
+		)
+		(fp_line
+			(start 0.93 0.47)
+			(end -0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "97808c7c-0a68-4bac-b280-03abe377d542")
+		)
+		(fp_line
+			(start -0.525 -0.27)
+			(end 0.525 -0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "133f50cd-ccf7-44db-a6de-2ba68f95be7f")
+		)
+		(fp_line
+			(start -0.525 0.27)
+			(end -0.525 -0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "76c3145e-cc80-4f05-84f3-d65b67d2773a")
+		)
+		(fp_line
+			(start 0.525 -0.27)
+			(end 0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "17bf3594-6b53-49b5-bfd6-c460fe9bf407")
+		)
+		(fp_line
+			(start 0.525 0.27)
+			(end -0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "66841bfb-f460-4c08-b915-345f9c42fb94")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "7315e0fa-1e53-424b-a9ba-d5a351464b72")
+			(effects
+				(font
+					(size 0.26 0.26)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.51 0)
+			(size 0.54 0.64)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 3 "GND")
+			(pintype "passive")
+			(uuid "e52568e5-9091-4ac7-9309-bd370ba377e6")
+		)
+		(pad "2" smd roundrect
+			(at 0.51 0)
+			(size 0.54 0.64)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 108 "Net-(J3-FB1-Pad1)")
+			(pintype "passive")
+			(uuid "2404fb79-c334-4fc5-a2fb-857d211d43e3")
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "196805eb-8e36-4182-acb4-0670877c5548")
@@ -4921,7 +5294,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4933,7 +5306,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_CCTC-TCC0402C0G220J500AT_C466226.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5076,7 +5449,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/2ab19673-2543-4adc-988f-0ed771a68fc9")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5248,7 +5623,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5260,7 +5635,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5391,7 +5766,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/77c21c09-3f5b-40d5-981a-431f0e94b36a")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5537,6 +5914,229 @@
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
+		(uuid "1dbb5784-2f4a-4f6c-ac76-c133bcf94bb2")
+		(at -69.13 -25.425)
+		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor")
+		(property "Reference" "R5"
+			(at 0 -1.17 0)
+			(layer "F.SilkS")
+			(uuid "49eb3edc-59df-4f62-905b-1c2f543f848a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "6.8k"
+			(at 0 1.17 0)
+			(layer "F.Fab")
+			(uuid "ae2550ca-6a18-41fd-957b-0f0ad2db162c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da1fe1e0-a84c-40e4-92f9-35d4b843c6e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b070456-37f5-4466-bc1a-9a2884087080")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic part"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72fa6c84-7076-4e70-96d3-9f3f5f6a4cc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd6ced4d-5a49-47f7-bc55-85f80a771940")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/0b4889d1-39dc-483d-8870-d82ea40e3e9b")
+		(sheetname "Root")
+		(sheetfile "hdmi2mipi.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.153641 -0.38)
+			(end 0.153641 -0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c59efe63-3abf-407c-84c2-1f96d5f6b1eb")
+		)
+		(fp_line
+			(start -0.153641 0.38)
+			(end 0.153641 0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d4a0ca00-af46-4a9e-a8f2-b516363c3a51")
+		)
+		(fp_line
+			(start -0.93 -0.47)
+			(end 0.93 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "332c5995-6a5e-4e89-bc58-e3a9daa2d2fd")
+		)
+		(fp_line
+			(start -0.93 0.47)
+			(end -0.93 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0702203a-00f5-4c6e-8a95-912c17098dcd")
+		)
+		(fp_line
+			(start 0.93 -0.47)
+			(end 0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ff16770d-d499-4389-94fb-cfd4ae646d65")
+		)
+		(fp_line
+			(start 0.93 0.47)
+			(end -0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "16e80d29-d2c2-46c9-ae17-e003c8708af7")
+		)
+		(fp_line
+			(start -0.525 -0.27)
+			(end 0.525 -0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c2e87288-910c-407f-87c5-3aee45c47e20")
+		)
+		(fp_line
+			(start -0.525 0.27)
+			(end -0.525 -0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2b8311f9-9962-4e81-826d-aa3791b29fe7")
+		)
+		(fp_line
+			(start 0.525 -0.27)
+			(end 0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "21694f19-80bb-415d-b7e6-6de93eaf65a9")
+		)
+		(fp_line
+			(start 0.525 0.27)
+			(end -0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b24e417a-d85e-46bc-b172-1e25a53df483")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "10e46a1b-527d-491f-9e07-3119d76f1661")
+			(effects
+				(font
+					(size 0.26 0.26)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.51 0)
+			(size 0.54 0.64)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 112 "Net-(J3-FB2-Pad5)")
+			(pintype "passive")
+			(uuid "65f6f7ff-6203-4219-8c37-562faabb0b61")
+		)
+		(pad "2" smd roundrect
+			(at 0.51 0)
+			(size 0.54 0.64)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 149 "Net-(U12-FB)")
+			(pintype "passive")
+			(uuid "9843fe1d-737b-4037-8665-9d143004ebe2")
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0402_1005Metric"
+		(layer "F.Cu")
 		(uuid "1fa6606a-3135-42b4-a771-78ffaa7f2480")
 		(at 10.998 4.104 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -5563,7 +6163,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5587,7 +6187,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5599,7 +6199,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/c3e58749-1396-4fed-b161-4c4d89df9856")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5771,7 +6373,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5783,7 +6385,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5914,7 +6516,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/ea72662f-5061-4d23-82b3-5a02128e7bbd")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6086,7 +6690,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6110,7 +6714,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6122,7 +6726,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/61726f31-2709-44b6-bd3e-70c4e9ff42dc")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6316,7 +6922,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6328,7 +6934,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://nl.mouser.com/datasheet/2/949/w25q16jv_spi_revg_03222018_plus-1489727.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6424,6 +7030,7 @@
 			)
 		)
 		(path "/1bc391e6-f752-4a0e-ada7-39f3588abd77")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6709,6 +7316,229 @@
 			)
 		)
 	)
+	(footprint "Resistor_SMD:R_0402_1005Metric"
+		(layer "F.Cu")
+		(uuid "23e1f575-1406-4aae-afc4-6f96c35507ee")
+		(at -69.13 -29.405)
+		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor")
+		(property "Reference" "R3"
+			(at 0 -1.17 0)
+			(layer "F.SilkS")
+			(uuid "cc10378e-e6a3-4cac-a435-2ef8ceea4732")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 0 1.17 0)
+			(layer "F.Fab")
+			(uuid "9696d583-366f-44c8-89c6-ec33ff6316df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d6ae6e5-bef3-409d-aa07-3fab187dffef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37b41e2c-5dab-42a0-845d-6ba84ae291e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic part"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e439652-ae77-423f-85f0-763d0d2f19b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa7b63aa-a102-4179-8e8c-5d52df49a80c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/877acc10-7f41-4d6b-9032-62e58cb98a41")
+		(sheetname "Root")
+		(sheetfile "hdmi2mipi.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.153641 -0.38)
+			(end 0.153641 -0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b94a5a64-601f-4292-98a4-4c5c2c32e5b5")
+		)
+		(fp_line
+			(start -0.153641 0.38)
+			(end 0.153641 0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1e4b4c7c-1a0d-46af-a5d3-60733b46d474")
+		)
+		(fp_line
+			(start -0.93 -0.47)
+			(end 0.93 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "90e871ed-4f99-4297-a0c7-271606ca6499")
+		)
+		(fp_line
+			(start -0.93 0.47)
+			(end -0.93 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b517884e-b56b-4b90-b11a-8b0f1dfe9864")
+		)
+		(fp_line
+			(start 0.93 -0.47)
+			(end 0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "64603bf4-225c-4a6d-ac29-474510d03074")
+		)
+		(fp_line
+			(start 0.93 0.47)
+			(end -0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0d4f8e98-0033-4fb9-8fb2-077d45522e30")
+		)
+		(fp_line
+			(start -0.525 -0.27)
+			(end 0.525 -0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "17726bf7-668a-46b9-aaa1-03cade158095")
+		)
+		(fp_line
+			(start -0.525 0.27)
+			(end -0.525 -0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7a63bd2f-d888-4e9b-b597-43838723a706")
+		)
+		(fp_line
+			(start 0.525 -0.27)
+			(end 0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "26f98e83-5a17-4706-8429-f0b5a63b7520")
+		)
+		(fp_line
+			(start 0.525 0.27)
+			(end -0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5adb501e-e3de-43a3-80c9-82b3bd4d5f24")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "d92976be-bcd2-4021-88bb-fea28b3c39fe")
+			(effects
+				(font
+					(size 0.26 0.26)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.51 0)
+			(size 0.54 0.64)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 108 "Net-(J3-FB1-Pad1)")
+			(pintype "passive")
+			(uuid "59ed7397-b8ad-4c40-8259-29401d498dde")
+		)
+		(pad "2" smd roundrect
+			(at 0.51 0)
+			(size 0.54 0.64)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 112 "Net-(J3-FB2-Pad5)")
+			(pintype "passive")
+			(uuid "0196d7be-b77d-4ebb-ad83-dff9f4e19c30")
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "24333faf-0009-478a-91c8-25c8bd43eb6b")
@@ -6737,7 +7567,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6749,7 +7579,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811091612_Samsung-Electro-Mechanics-CL21A476MQYNNNE_C16780.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6761,7 +7591,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Generic part"
 			(at 6.9 4.7 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -6868,7 +7698,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/08be6c32-8286-4425-b2c0-cb315b8632a6")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7040,7 +7872,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7064,7 +7896,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7076,7 +7908,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/1faa6dbb-edfc-421a-84e4-3fdce12792b1")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7248,7 +8082,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7272,7 +8106,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7284,7 +8118,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/53cef3f3-73ce-4015-9514-a263378a537b")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7456,7 +8292,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7480,7 +8316,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7492,7 +8328,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/b8b5cba8-ddb5-4782-afcd-2cbf5257b9a0")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7664,7 +8502,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7700,7 +8538,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/4e0780a9-c840-45a5-aa6b-fb246995aea2")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7872,7 +8712,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7896,7 +8736,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7908,7 +8748,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/4c804581-ce34-4e93-a7fd-dd5336996ae0")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8080,7 +8922,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8092,7 +8934,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006102223_Samsung-Electro-Mechanics-CL21A226MAYNNNE_C602037.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8223,7 +9065,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/d24b6d8c-f3c7-480b-a6ac-1148b58f478b")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8395,7 +9239,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8419,7 +9263,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8431,7 +9275,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/79a9d5ef-a66f-4077-bf04-26e27c1c9be0")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8603,7 +9449,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8615,7 +9461,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8758,7 +9604,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/0f96dd21-0af1-4bfd-b08f-7d176806cee6")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8930,7 +9778,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8942,7 +9790,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9085,7 +9933,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/f1e356b4-f120-4537-a302-ce6767449819")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9257,7 +10107,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_SM07B-SRSS-TB_1x07-1MP_P1.00mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9281,7 +10131,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9293,7 +10143,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/a8f613a9-6329-4309-a2b5-71081937d3de")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9597,7 +10449,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9621,7 +10473,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9633,7 +10485,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a275ba2a-9cba-4866-87b3-35c3536c2d2b")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -9859,7 +10713,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9871,7 +10725,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006102223_Samsung-Electro-Mechanics-CL21A226MAYNNNE_C602037.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10002,7 +10856,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/40746988-cad7-449f-97a3-6d3fd831d2d8")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10174,7 +11030,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10186,7 +11042,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110251730_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10317,7 +11173,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/fbd65730-16ae-48f6-8216-8a9c0a55ee15")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10489,7 +11347,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10501,7 +11359,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10644,7 +11502,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/3b5b9040-8136-4f2b-9fbe-eb1d6eea1914")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10816,7 +11676,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10828,7 +11688,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191216_Samsung-Electro-Mechanics-CL05A105KQ5NNNC_C107372.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10971,7 +11831,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/ebead9fe-cbfa-4438-800f-a895f1a671b4")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11143,7 +12005,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11155,7 +12017,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809050356_Silergy-Corp-SY8079AAC_C133751.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11275,7 +12137,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/33002dbe-8007-492f-8ede-946696f4d914")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11509,7 +12373,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11533,7 +12397,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11545,7 +12409,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/ca8489d3-05f3-4a4a-8231-7c3f84dff9a5")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11741,7 +12607,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11765,7 +12631,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11777,7 +12643,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/708ca81a-fec8-4e4a-a4e7-ff4d91b07b18")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -11942,7 +12810,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11966,7 +12834,7 @@
 				)
 			)
 		)
-		(property "Description" "4 resistor network, parallel topology"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11978,7 +12846,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex*")
 		(path "/34adacd0-dc56-4d3b-9e87-5bd93dd839f5")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12204,7 +13074,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12228,7 +13098,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12240,7 +13110,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/436b5305-208c-4b0d-9a19-7053270cded1")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12504,7 +13376,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12516,7 +13388,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12528,7 +13400,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Generic part"
 			(at 13.25 1.23 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -12635,7 +13507,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/2ff0720a-72d7-4472-a40e-1902769e2d20")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12807,7 +13681,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12819,7 +13693,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12938,7 +13812,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/7fa034ec-2279-4d66-b194-c1b3bfdc6e28")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13110,7 +13986,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13122,7 +13998,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13253,7 +14129,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/55ba7626-a5e9-4f63-a47d-0d25b33f2345")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13425,7 +14303,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13449,7 +14327,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13461,7 +14339,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/5b59775b-a091-4b1c-bed4-71654a7476ec")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13605,6 +14485,287 @@
 			)
 		)
 	)
+	(footprint "Package_TO_SOT_SMD:SOT-23-6"
+		(layer "F.Cu")
+		(uuid "58b161ed-94aa-4d81-972b-a4967a324aba")
+		(at -63.45 -31.155)
+		(descr "SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(tags "SOT TO_SOT_SMD")
+		(property "Reference" "U12"
+			(at 0 -2.4 0)
+			(layer "F.SilkS")
+			(uuid "16af3f0e-c8ab-49ba-92bf-7af872289f08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 2.4 0)
+			(layer "F.Fab")
+			(uuid "a40cd948-4870-40ec-802f-ec1f3eb159ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "674a3439-fc89-479b-ab75-38d9762611bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d147300-ff21-4bdb-a654-407df6f51368")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25a4e1c3-c991-444c-9cde-a6ff63170306")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/afae34a3-fac0-4f6c-a3f0-af19ba79199b")
+		(sheetname "Root")
+		(sheetfile "hdmi2mipi.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0 -1.56)
+			(end -1.8 -1.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cfef4a2d-e144-4f12-9982-69715efce1c4")
+		)
+		(fp_line
+			(start 0 -1.56)
+			(end 0.8 -1.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2d56faf9-5cae-46f5-a245-d61ddfdd7cdd")
+		)
+		(fp_line
+			(start 0 1.56)
+			(end -0.8 1.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a88fdf60-b948-4d86-bb33-b32720f9a8fc")
+		)
+		(fp_line
+			(start 0 1.56)
+			(end 0.8 1.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "03d49985-9659-4cab-9ef5-6f74b1c52c81")
+		)
+		(fp_line
+			(start -2.05 -1.7)
+			(end -2.05 1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e0245399-3c6a-4fda-86dd-3e60a7b987cb")
+		)
+		(fp_line
+			(start -2.05 1.7)
+			(end 2.05 1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "56fb5ddf-f0a3-4164-910e-ca298090ee45")
+		)
+		(fp_line
+			(start 2.05 -1.7)
+			(end -2.05 -1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7e22c419-8e3e-4e14-a07c-2566ef4dd9c4")
+		)
+		(fp_line
+			(start 2.05 1.7)
+			(end 2.05 -1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "df9fda13-0577-47d2-aa0b-c40f35a8b1db")
+		)
+		(fp_line
+			(start -0.8 -1.05)
+			(end -0.4 -1.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "49008823-1647-40f5-99c0-8486fa9274a6")
+		)
+		(fp_line
+			(start -0.8 1.45)
+			(end -0.8 -1.05)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "09cc7318-a7ba-4457-851f-1dfa9d2c2329")
+		)
+		(fp_line
+			(start -0.4 -1.45)
+			(end 0.8 -1.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "39582d67-42a6-451a-9559-e04dc1d6930e")
+		)
+		(fp_line
+			(start 0.8 -1.45)
+			(end 0.8 1.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ee22c447-97ff-4237-bfb2-2f360503b327")
+		)
+		(fp_line
+			(start 0.8 1.45)
+			(end -0.8 1.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e6d0bc1a-cd60-4127-af68-77ba112cf3f5")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "cf2763fc-6fe7-4f45-b6fb-059328e6f396")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.1375 -0.95)
+			(size 1.325 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 167 "Net-(D5-A)")
+			(pinfunction "LX")
+			(pintype "input")
+			(uuid "5ab48ec9-bd8f-4bfe-88c5-3ecd47c473c9")
+		)
+		(pad "2" smd roundrect
+			(at -1.1375 0)
+			(size 1.325 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 3 "GND")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "e87f300e-e8f5-44da-9c3e-203781b6cb05")
+		)
+		(pad "3" smd roundrect
+			(at -1.1375 0.95)
+			(size 1.325 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 149 "Net-(U12-FB)")
+			(pinfunction "FB")
+			(pintype "input")
+			(uuid "d1277e7e-8e63-4b5c-86f4-3ca0ec624836")
+		)
+		(pad "4" smd roundrect
+			(at 1.1375 0.95)
+			(size 1.325 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 117 "BL_EN")
+			(pinfunction "EN")
+			(pintype "input")
+			(uuid "a3c21c0f-8273-4ef0-b425-cf6659ac81d0")
+		)
+		(pad "5" smd roundrect
+			(at 1.1375 0)
+			(size 1.325 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 62 "Net-(D5-K)")
+			(pinfunction "OVP")
+			(pintype "input")
+			(uuid "3468c8a1-3acb-4e52-8f9e-dceddccc3634")
+		)
+		(pad "6" smd roundrect
+			(at 1.1375 -0.95)
+			(size 1.325 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 1 "VBUS")
+			(pinfunction "Vin")
+			(pintype "power_in")
+			(uuid "9b5f0a6d-a639-4c95-a0d3-a941dc0eb4f7")
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "58c09e1a-09d6-44a0-bc4b-6a8e756356cf")
@@ -13633,7 +14794,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13645,7 +14806,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13657,7 +14818,7 @@
 				)
 			)
 		)
-		(property "Description" "0.1A Ic, 65V Vce, NPN Transistor, SOT-23"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13669,7 +14830,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/ee110acb-2781-4074-bf25-04deff83d1ee")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13883,7 +15046,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Oscillator:Oscillator_SMD_SeikoEpson_SG210-4Pin_2.5x2.0mm"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13895,7 +15058,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-210STF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13907,7 +15070,7 @@
 				)
 			)
 		)
-		(property "Description" "CMOS Crystal Oscillator SPXO"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13991,7 +15154,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Oscillator*SMD*SeikoEpson*SG210*2.5x2.0mm*")
 		(path "/f8b7de5e-5b93-48ea-8cad-f0808b55c242")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -14207,6 +15372,216 @@
 			)
 		)
 	)
+	(footprint "Capacitor_SMD:C_0402_1005Metric"
+		(layer "F.Cu")
+		(uuid "5a7a4870-daa6-49a8-8528-7daa564ab210")
+		(at -45.93 -44.02)
+		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "capacitor")
+		(property "Reference" "C53"
+			(at 0 -1.16 0)
+			(layer "F.SilkS")
+			(uuid "91692cec-25fb-48f1-8f56-f217bec0b96e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 0 1.16 0)
+			(layer "F.Fab")
+			(uuid "82e83872-2ae7-4939-8d72-85ef557d93e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99eb0b55-8126-4104-a517-eb706e38f100")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce3aa965-91c8-40d9-9086-a3e7e2bcf171")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94e1e105-df64-4a21-a3ea-6c6346f39e45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/29aaae1d-6c6d-4f38-b26e-b4dad6ad97fc")
+		(sheetname "Root")
+		(sheetfile "hdmi2mipi.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.107836 -0.36)
+			(end 0.107836 -0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9ebe5397-0d71-422d-9d20-8bced21633ae")
+		)
+		(fp_line
+			(start -0.107836 0.36)
+			(end 0.107836 0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9210a632-c83e-45be-b18b-adb1ba7a1e45")
+		)
+		(fp_line
+			(start -0.91 -0.46)
+			(end 0.91 -0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4b6faadb-f106-42e1-a20d-af2e336388ef")
+		)
+		(fp_line
+			(start -0.91 0.46)
+			(end -0.91 -0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6c887dc9-94b6-45ee-b9f0-cfd71198e340")
+		)
+		(fp_line
+			(start 0.91 -0.46)
+			(end 0.91 0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "48154a7c-08bd-402d-8b38-b632edd6b60f")
+		)
+		(fp_line
+			(start 0.91 0.46)
+			(end -0.91 0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c7434c9e-bfc7-4f32-8455-a60578e40da4")
+		)
+		(fp_line
+			(start -0.5 -0.25)
+			(end 0.5 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "720f5d85-a67b-4070-a1cf-d214e55d1623")
+		)
+		(fp_line
+			(start -0.5 0.25)
+			(end -0.5 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e5a9c3ad-a7f5-4a93-a7f9-b394c2d11e9c")
+		)
+		(fp_line
+			(start 0.5 -0.25)
+			(end 0.5 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a6b60b2f-26dd-4a12-8df6-d8cb90733565")
+		)
+		(fp_line
+			(start 0.5 0.25)
+			(end -0.5 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "481f9fd4-5478-4a5f-a68e-8d9a2a3a06ea")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "031e455d-caf8-4dc3-ab77-eb9a130dfbe4")
+			(effects
+				(font
+					(size 0.25 0.25)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.48 0)
+			(size 0.56 0.62)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 62 "Net-(D5-K)")
+			(pintype "passive")
+			(uuid "f4f24d64-0434-4300-856f-e65fa31f0581")
+		)
+		(pad "2" smd roundrect
+			(at 0.48 0)
+			(size 0.56 0.62)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 3 "GND")
+			(pintype "passive")
+			(uuid "8e81c9d9-4c29-4f34-80fd-9995315ceab1")
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "5b80bf51-abd2-4b2f-aebc-20c7fe979f1e")
@@ -14235,7 +15610,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14259,7 +15634,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14271,7 +15646,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/495e60ed-6020-4bfb-8741-ca459eed33dd")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14545,7 +15922,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14557,7 +15934,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14569,7 +15946,7 @@
 				)
 			)
 		)
-		(property "Description" "0.1A Ic, 65V Vce, NPN Transistor, SOT-23"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14581,7 +15958,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/22fdafc4-6c3b-49fa-a829-6153deaa5c2f")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14795,7 +16174,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14819,7 +16198,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14831,7 +16210,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/54c39342-3f06-403f-b40a-e39cbbbabdc0")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15003,7 +16384,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15027,7 +16408,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15039,7 +16420,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/7df54a69-e3ee-45b4-a6a4-0e07263a1af9")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15211,7 +16594,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15235,7 +16618,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15247,7 +16630,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/36354304-5cd8-4225-b90e-2a8dbacda08d")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15419,7 +16804,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15431,7 +16816,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15562,7 +16947,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/099374cd-9c03-4431-9613-5782bc7224ac")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15734,7 +17121,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15746,7 +17133,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110251730_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15877,7 +17264,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/def73eba-cd90-4a85-98a8-fd50f86ad0e6")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16049,7 +17438,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16073,7 +17462,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16085,7 +17474,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/fe4594be-ce09-4133-befd-2e0b55f8ba3e")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16257,7 +17648,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16281,7 +17672,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16293,7 +17684,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/07c4da73-a0e0-4fb3-a923-03a7430bedeb")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16465,7 +17858,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16489,7 +17882,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16501,7 +17894,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/36b9b743-be08-4116-84be-d34d986e3810")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16673,7 +18068,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16697,7 +18092,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16709,7 +18104,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/d0999396-0315-4330-b668-bc60d8866608")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16881,7 +18278,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16905,7 +18302,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16917,7 +18314,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/9322214f-0a71-4c58-9b1d-51460167ff74")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17089,7 +18488,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17113,7 +18512,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17125,7 +18524,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/777a58a4-3ff6-48e2-b8ce-d38ad82c3a30")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17269,6 +18670,118 @@
 			)
 		)
 	)
+	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
+		(layer "F.Cu")
+		(uuid "71e1a13c-4c2c-4808-bb36-b1fbdb4598be")
+		(at -49.39 -42.98)
+		(descr "SMD pad as test Point, diameter 2.0mm")
+		(tags "test point SMD pad")
+		(property "Reference" "TP4"
+			(at 0 -1.998 0)
+			(layer "F.SilkS")
+			(uuid "bbc415f8-e5d9-4bdc-a23c-b504bfeccf7f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "4e792e97-d421-4d6a-b22d-1ecefd537aee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6314f2e-e79c-4017-b25c-53c6afb70a7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3920a190-d664-4319-bb7b-acadd7ca3f77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db06b1ed-38aa-46f7-b72f-146bfedcbfb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/84d6311b-39d5-484c-874b-f7886c0b656d")
+		(sheetname "Root")
+		(sheetfile "hdmi2mipi.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "78df4ee6-e47b-408c-a25a-b20fd25b3bf8")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.5 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "152e96e6-b1cb-459e-a4fa-633aa4f1ed40")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2 0)
+			(layer "F.Fab")
+			(uuid "ff2f2a51-ddaa-4884-9c8b-c5970ecb90ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 2 2)
+			(layers "F.Cu" "F.Mask")
+			(net 116 "Net-(J3-5.8v-VEE)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "e31187f6-1500-4077-b44c-9dece4ba5dd7")
+		)
+	)
 	(footprint "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
 		(layer "F.Cu")
 		(uuid "7333ec59-3b74-4913-be4a-16ec1cedb4b1")
@@ -17299,7 +18812,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17323,7 +18836,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17335,7 +18848,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/511c66db-6d68-40f4-87ca-9ccdef3fe496")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -17500,7 +19015,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17512,7 +19027,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17643,7 +19158,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/2a7e5a98-4753-47aa-9a06-bf9b69d559df")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17815,7 +19332,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17958,7 +19475,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/db9eaf4a-ddf1-458a-bb1a-1404cadc5ebe")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18130,7 +19649,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18154,7 +19673,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18166,7 +19685,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/cdd139b6-aee1-4ac6-afaf-fb81308c04cc")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18338,7 +19859,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18362,7 +19883,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18374,21 +19895,11 @@
 				)
 			)
 		)
-		(property "dnp" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d12f9c84-9f8c-47f8-84b2-f9ccb6084a93")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "R_*")
 		(path "/bbf122ec-fe8d-4bec-ab94-b2c04ac33484")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
@@ -18558,7 +20069,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18570,7 +20081,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006102223_Samsung-Electro-Mechanics-CL21A226MAYNNNE_C602037.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18701,7 +20212,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/dd935681-0d35-4a28-83ef-9c2e7114a966")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18875,7 +20388,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18899,7 +20412,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18911,7 +20424,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/4f6151ee-eec4-4977-9fb8-6c45c5e7176b")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -19076,7 +20591,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19088,7 +20603,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191216_Samsung-Electro-Mechanics-CL05A105KQ5NNNC_C107372.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19231,7 +20746,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/aeca10a4-fe53-42d8-90d0-0ff2e3bc4304")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19403,7 +20920,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19415,7 +20932,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19558,7 +21075,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/d99e805d-8d61-466e-8cc8-fb38adb6110f")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19702,6 +21221,229 @@
 			)
 		)
 	)
+	(footprint "Resistor_SMD:R_0402_1005Metric"
+		(layer "F.Cu")
+		(uuid "85940176-1c61-444a-8ca4-4a5e86e88b80")
+		(at -69.13 -23.435)
+		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor")
+		(property "Reference" "R63"
+			(at 0 -1.17 0)
+			(layer "F.SilkS")
+			(uuid "15c217e3-4314-48c3-b270-b915f9c1221f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "50k"
+			(at 0 1.17 0)
+			(layer "F.Fab")
+			(uuid "8fda3d74-a1bf-4a14-857c-91df83810729")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0968bd93-b113-4033-83d7-0563d3d3308b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4dd49bfb-dc85-4a03-b713-f71b01df6fb1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic part"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "403dcecc-5c74-4099-8f65-690dcb54a3df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b27a919-895e-4c10-8ba7-9728965ac811")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/f77b2247-0d37-4f6d-b1f9-f56392f04636")
+		(sheetname "Root")
+		(sheetfile "hdmi2mipi.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.153641 -0.38)
+			(end 0.153641 -0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9ee4b8d8-6c7b-482c-8edc-45453ff86508")
+		)
+		(fp_line
+			(start -0.153641 0.38)
+			(end 0.153641 0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ddc0ef22-a083-48bf-8be6-d78f023a0d22")
+		)
+		(fp_line
+			(start -0.93 -0.47)
+			(end 0.93 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a3922020-b25d-4753-a9ae-a0afd555e413")
+		)
+		(fp_line
+			(start -0.93 0.47)
+			(end -0.93 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d3d88b07-6397-4296-9cf1-915b24315dca")
+		)
+		(fp_line
+			(start 0.93 -0.47)
+			(end 0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9b2d011c-011b-4e21-a356-a9a6214be2d8")
+		)
+		(fp_line
+			(start 0.93 0.47)
+			(end -0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "365cdae7-c7aa-43be-b3ba-d20fd7314adb")
+		)
+		(fp_line
+			(start -0.525 -0.27)
+			(end 0.525 -0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8c62d065-4f48-4ace-8c6b-ccc9909da50e")
+		)
+		(fp_line
+			(start -0.525 0.27)
+			(end -0.525 -0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7d70a73d-fb1f-4c74-9a83-3a4343965f62")
+		)
+		(fp_line
+			(start 0.525 -0.27)
+			(end 0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "38a36813-7c7e-4f34-a264-c61f3864f565")
+		)
+		(fp_line
+			(start 0.525 0.27)
+			(end -0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "50fba83f-8f45-4a3d-ad72-2f32e1eb1df0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "0175d7f3-a618-4ec1-8711-0ea027001eed")
+			(effects
+				(font
+					(size 0.26 0.26)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.51 0)
+			(size 0.54 0.64)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 149 "Net-(U12-FB)")
+			(pintype "passive")
+			(uuid "272ec72d-c1d0-49f0-acf7-610a127034c6")
+		)
+		(pad "2" smd roundrect
+			(at 0.51 0)
+			(size 0.54 0.64)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 150 "Net-(C54-Pad1)")
+			(pintype "passive")
+			(uuid "c623aaf1-5ded-4f81-aa81-990581eff3cf")
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "8648f0aa-c0be-497d-ba44-06aa9da51526")
@@ -19730,7 +21472,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19742,7 +21484,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19885,7 +21627,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/1f3f4470-974c-46c9-9b79-c643f6f4e99f")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20029,6 +21773,216 @@
 			)
 		)
 	)
+	(footprint "Resistor_SMD:R_0402_1005Metric"
+		(layer "F.Cu")
+		(uuid "872f4bba-87a0-40d2-b0e7-937db101efc0")
+		(at -69.13 -33.385)
+		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor")
+		(property "Reference" "R1"
+			(at 0 -1.17 0)
+			(layer "F.SilkS")
+			(uuid "5ba1c780-a3b5-4a54-b7a2-07113cacb010")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 0 1.17 0)
+			(layer "F.Fab")
+			(uuid "d8839170-37e9-4de3-a8a0-b380b453960b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a39c84df-1dac-40fc-91b9-9f962b948ae0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d07c3e5b-6f72-4ede-8074-78db43e4748a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "254d8209-8bcb-4d8f-8e21-a7e14bb3f490")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/0a6e0986-a480-4cd5-9380-788f6e0e1452")
+		(sheetname "Root")
+		(sheetfile "hdmi2mipi.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.153641 -0.38)
+			(end 0.153641 -0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "06fb8aa6-d225-4733-9438-5d87afff51d8")
+		)
+		(fp_line
+			(start -0.153641 0.38)
+			(end 0.153641 0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b56d7b31-0b36-45e0-8d11-80694b2d803c")
+		)
+		(fp_line
+			(start -0.93 -0.47)
+			(end 0.93 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "474f03de-6682-4cc0-961f-87ceee5c21d8")
+		)
+		(fp_line
+			(start -0.93 0.47)
+			(end -0.93 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f83a89fd-62b0-48dd-83d7-587b41015768")
+		)
+		(fp_line
+			(start 0.93 -0.47)
+			(end 0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d8d89dec-c3ba-4dd6-b3e2-cbb7838bba84")
+		)
+		(fp_line
+			(start 0.93 0.47)
+			(end -0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "333c426b-cec8-40e6-8c72-fe6abfbdea36")
+		)
+		(fp_line
+			(start -0.525 -0.27)
+			(end 0.525 -0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "96de7cdd-06de-407c-a134-72e3e857a99f")
+		)
+		(fp_line
+			(start -0.525 0.27)
+			(end -0.525 -0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b8835fff-b9a4-41b0-82a8-06fcef5de8e1")
+		)
+		(fp_line
+			(start 0.525 -0.27)
+			(end 0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ba73bb15-4553-4f40-a9fc-19870330fb94")
+		)
+		(fp_line
+			(start 0.525 0.27)
+			(end -0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "67931934-48ff-4c36-a332-abfd921b776c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "999de513-5c88-4415-b679-151ef21be1ef")
+			(effects
+				(font
+					(size 0.26 0.26)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.51 0)
+			(size 0.54 0.64)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 117 "BL_EN")
+			(pintype "passive")
+			(uuid "2a153906-443f-4b17-83bf-2d50b32e4787")
+		)
+		(pad "2" smd roundrect
+			(at 0.51 0)
+			(size 0.54 0.64)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 3 "GND")
+			(pintype "passive")
+			(uuid "4ff8b3a2-c6eb-4be9-a921-bc933d22781f")
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "8c564781-82cf-4ac7-b9d0-34b013e3cc7b")
@@ -20057,7 +22011,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20069,7 +22023,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_CCTC-TCC0402C0G220J500AT_C466226.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20212,7 +22166,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/25505f21-7046-4697-92e7-4c25d907c6a7")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20384,7 +22340,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20396,7 +22352,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810121532_Silergy-Corp-SY6280AAC_C55136.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20431,7 +22387,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/b22b147f-ea44-4175-98b9-e3972f26e6fd")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20663,7 +22621,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:Boom-audiojack-PJ-320B"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20675,7 +22633,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811132022_BOOMELE-Boom-Precision-Elec-C18594_C18594.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20795,7 +22753,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Jack*")
 		(path "/bb759b10-ab27-46da-809b-fded01276753")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -21478,7 +23438,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21490,7 +23450,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21621,7 +23581,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/6bb643e3-1b98-4b89-b0d4-7d6af5ea5277")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21793,7 +23755,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21805,7 +23767,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21817,7 +23779,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Generic part"
 			(at 7.4 1.98 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -21924,7 +23886,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/4f71e32b-3b47-4e84-9fe7-7a5063db6f55")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -22096,7 +24060,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22108,7 +24072,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006102223_Samsung-Electro-Mechanics-CL21A226MAYNNNE_C602037.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22239,7 +24203,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/0ebee94b-6e87-4022-8576-f06420cd8fe1")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -22411,7 +24377,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22435,7 +24401,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22447,7 +24413,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/d0a1f98c-bdd6-4be4-9aed-9b7f39ea71db")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -22521,7 +24489,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22545,7 +24513,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22557,7 +24525,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/cbdef034-b5ec-41c3-9b6f-872647f1e83e")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -22631,7 +24601,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22643,7 +24613,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260130_UNI-ROYAL-Uniroyal-Elec-0402WGF4532TCE_C26980.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22667,7 +24637,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/7e60f73b-1374-4f8a-8fd1-4cb93b0fdf0c")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -22839,7 +24811,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22875,7 +24847,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/44179bf1-c1bd-4200-970e-3e57d3b8e56f")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -23047,7 +25021,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23071,7 +25045,7 @@
 				)
 			)
 		)
-		(property "Description" "NPN transistor, base/emitter/collector"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23084,6 +25058,7 @@
 			)
 		)
 		(path "/32d82686-c905-412a-b45c-a7765d51b38e")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -23297,7 +25272,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23309,7 +25284,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260130_UNI-ROYAL-Uniroyal-Elec-0402WGF4532TCE_C26980.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23440,7 +25415,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/6ab9ac1c-36a3-4730-a8d4-35ce3d0bc30c")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -23612,7 +25589,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23624,7 +25601,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110261930_UNI-ROYAL-Uniroyal-Elec-0402WGD3300TCE_C423288.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23755,7 +25732,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/78aa8799-9112-4f64-a2cd-6ea404f89cc3")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -23899,6 +25878,229 @@
 			)
 		)
 	)
+	(footprint "Resistor_SMD:R_0402_1005Metric"
+		(layer "F.Cu")
+		(uuid "9f3b157f-445b-4b84-9dfb-5ad72f283d34")
+		(at -69.13 -21.445)
+		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor")
+		(property "Reference" "R64"
+			(at 0 -1.17 0)
+			(layer "F.SilkS")
+			(uuid "5c552552-ae35-4afe-a753-c5d156f5583c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 0 1.17 0)
+			(layer "F.Fab")
+			(uuid "6be9f7de-b846-4cbd-8b61-4c1748105300")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6affc4db-ab86-4290-a1cc-cd2d4a0409a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "369aecb5-387e-4821-a719-271308dbdab9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic part"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2374537-d21a-446f-a7e7-0fa5b7d7af3b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f71cca9-3714-46db-88c2-07b6b4ed9b4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/cf58a87f-2194-4617-a9ef-ade30b3e1fbf")
+		(sheetname "Root")
+		(sheetfile "hdmi2mipi.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.153641 -0.38)
+			(end 0.153641 -0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "76f6767d-a7f4-4bad-8553-47814ca62acc")
+		)
+		(fp_line
+			(start -0.153641 0.38)
+			(end 0.153641 0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "be2efde4-47c6-4b1d-b2ae-981f247bf70c")
+		)
+		(fp_line
+			(start -0.93 -0.47)
+			(end 0.93 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b9500b6d-5033-4437-8e7d-b252baa6c917")
+		)
+		(fp_line
+			(start -0.93 0.47)
+			(end -0.93 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "33e2acb0-834b-4fb2-9fbe-d56240946b53")
+		)
+		(fp_line
+			(start 0.93 -0.47)
+			(end 0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "99a808b2-678c-4695-95ec-b4251e49245b")
+		)
+		(fp_line
+			(start 0.93 0.47)
+			(end -0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e7aed239-1317-465e-8b5c-572b746db31e")
+		)
+		(fp_line
+			(start -0.525 -0.27)
+			(end 0.525 -0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d63955fe-89dc-4793-92bf-36f2ce518837")
+		)
+		(fp_line
+			(start -0.525 0.27)
+			(end -0.525 -0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "357e145d-481f-4ec3-bcd7-ce6461ac861d")
+		)
+		(fp_line
+			(start 0.525 -0.27)
+			(end 0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b4b69c3a-25e2-467d-9e0e-5c8b07a595de")
+		)
+		(fp_line
+			(start 0.525 0.27)
+			(end -0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "45a1eb06-2654-449d-b019-6c315a6671f4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "83e99197-d04d-460a-a723-89bf9a43b90d")
+			(effects
+				(font
+					(size 0.26 0.26)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.51 0)
+			(size 0.54 0.64)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 150 "Net-(C54-Pad1)")
+			(pintype "passive")
+			(uuid "291eee89-387e-4f99-ad3f-e34d99b96f08")
+		)
+		(pad "2" smd roundrect
+			(at 0.51 0)
+			(size 0.54 0.64)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 166 "BL_PWM")
+			(pintype "passive")
+			(uuid "b34bd1b7-2e29-4455-ab0c-cc370f40ac1c")
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "fpc60:Hirose_FH52-60S-0.5SH_1x60-1MP_P0.50mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "a01ba01a-eb86-4626-9846-ed29dc983912")
@@ -23927,7 +26129,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "fpc60:Hirose_FH52-60S-0.5SH_1x60-1MP_P0.50mm_Horizontal"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23964,6 +26166,7 @@
 			)
 		)
 		(path "/64dd2219-d7c2-49c6-9057-1e1d5fc172a1")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -24321,7 +26524,7 @@
 			(at -11.25 -1.85 90)
 			(size 0.3 1.3)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 114 "Net-(J3-LED+-Pad10)")
+			(net 62 "Net-(D5-K)")
 			(pinfunction "LED+")
 			(pintype "power_out")
 			(uuid "6bebc42d-3df2-41fa-8ca4-3b19fff305df")
@@ -24330,7 +26533,7 @@
 			(at -10.75 -1.85 90)
 			(size 0.3 1.3)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 114 "Net-(J3-LED+-Pad10)")
+			(net 62 "Net-(D5-K)")
 			(pinfunction "LED+")
 			(pintype "power_out")
 			(uuid "5d7bee40-77b9-4f19-9e20-80cb8fd84611")
@@ -24339,7 +26542,7 @@
 			(at -10.25 -1.85 90)
 			(size 0.3 1.3)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 114 "Net-(J3-LED+-Pad10)")
+			(net 62 "Net-(D5-K)")
 			(pinfunction "LED+")
 			(pintype "power_out")
 			(uuid "f228a0b4-a0f3-4530-9673-005cd8399ae9")
@@ -24365,7 +26568,7 @@
 			(at -8.75 -1.85 90)
 			(size 0.3 1.3)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 116 "unconnected-(J3-5.8v-VEE-Pad13)")
+			(net 116 "Net-(J3-5.8v-VEE)")
 			(pinfunction "5.8v-VEE")
 			(pintype "power_out")
 			(uuid "b6b11916-6c7b-4c85-b39f-21561916ba20")
@@ -24374,7 +26577,7 @@
 			(at -8.25 -1.85 90)
 			(size 0.3 1.3)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 117 "unconnected-(J3-5.8v-VDD-Pad14)")
+			(net 114 "Net-(J3-5.8v-VDD)")
 			(pinfunction "5.8v-VDD")
 			(pintype "power_out")
 			(uuid "8eb34b62-36bc-4fb5-8fdc-1860995a1c61")
@@ -24487,7 +26690,7 @@
 			(at -1.75 -1.85 90)
 			(size 0.3 1.3)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 62 "Net-(J3-3.3-S2)")
+			(net 63 "Net-(J3-3.3-S1)")
 			(pinfunction "3.3-S2")
 			(pintype "output")
 			(uuid "6b4ebe97-d7ac-4ce1-9144-34cde77baa06")
@@ -24844,7 +27047,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24856,7 +27059,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110261930_UNI-ROYAL-Uniroyal-Elec-0402WGD3300TCE_C423288.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24987,7 +27190,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/7a112934-764e-45cb-860c-fa3fdd44736d")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -25159,7 +27364,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25183,7 +27388,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25195,7 +27400,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8b608ef4-9e5b-4477-a2e4-a4c9716a76f0")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -25367,7 +27574,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25391,7 +27598,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25403,7 +27610,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/964dd577-a5a1-467e-8c45-6c71c4f575ec")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -25677,7 +27886,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25713,7 +27922,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/bedd152e-cee1-4a18-bf84-0761cd0c60de")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -25885,7 +28096,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25897,7 +28108,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006102223_Samsung-Electro-Mechanics-CL21A226MAYNNNE_C602037.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26028,7 +28239,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/dfc8be3d-c2cf-4d8c-a6be-a1142f387b7f")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -26200,7 +28413,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26224,7 +28437,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26236,7 +28449,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/dda162eb-17ad-4455-ae05-12648a22db24")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -26408,7 +28623,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26432,7 +28647,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26444,7 +28659,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/0b1c1ed3-bc57-45db-bf1b-09c092a02c12")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -26616,7 +28833,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26640,7 +28857,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26652,7 +28869,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/d9c5ce4b-5977-4e31-b8e5-94688dbbf12f")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -26847,7 +29066,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26859,7 +29078,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809050356_Silergy-Corp-SY8079AAC_C133751.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26979,7 +29198,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/91cbbd3d-46bc-4156-b76a-585e023ebdea")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -27213,7 +29434,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27237,7 +29458,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27249,7 +29470,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/4bd99fab-aaef-42a6-acec-2c0ba2651280")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -27421,7 +29644,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27433,7 +29656,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010152035_CCTC-TCC0402X7R393K500AT_C880624.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27445,7 +29668,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Generic part"
 			(at 15.39 3.16 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -27552,7 +29775,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/380e9129-386b-4a86-b535-5108e8511373")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -27724,7 +29949,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27736,7 +29961,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27879,7 +30104,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/db365627-3b68-485f-8362-3b7744fbe8ee")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -28051,7 +30278,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28075,7 +30302,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28087,7 +30314,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/4627d333-4e28-47d6-8d82-e6610c18028a")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -28259,7 +30488,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28271,7 +30500,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_CCTC-TCC0402C0G220J500AT_C466226.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28414,7 +30643,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/54373b80-cc8b-46eb-84de-c849d154f817")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -28586,7 +30817,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28610,7 +30841,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28622,7 +30853,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/9d90fa6a-4322-416f-8b7d-e927941d80b4")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -28794,7 +31027,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28818,7 +31051,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28830,7 +31063,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/a9b28738-4213-45a1-a411-d80c2afff221")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -28974,6 +31209,229 @@
 			)
 		)
 	)
+	(footprint "Resistor_SMD:R_0402_1005Metric"
+		(layer "F.Cu")
+		(uuid "bb90e6ed-122a-4c19-b887-c5fdbf50c092")
+		(at -69.13 -27.415)
+		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor")
+		(property "Reference" "R4"
+			(at 0 -1.17 0)
+			(layer "F.SilkS")
+			(uuid "8c3181fc-9a23-4cf3-9f1d-86cd213bd1d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 0 1.17 0)
+			(layer "F.Fab")
+			(uuid "1b074d61-1481-4a16-a942-2aace968063e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f423d8fd-f16d-44d8-8e1a-54af3370e582")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "409ee40f-d401-4f18-bef9-aa3ed57fe743")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic part"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad2301e5-4db3-40ac-b192-465a1c9c06b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "649ca97b-2b0f-4a76-ba2b-6e678878a755")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/0e3b8d74-d23f-4517-8f01-e1a667a65d13")
+		(sheetname "Root")
+		(sheetfile "hdmi2mipi.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.153641 -0.38)
+			(end 0.153641 -0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6d6ceed9-4f96-45af-ab7e-49ce4ffc27ba")
+		)
+		(fp_line
+			(start -0.153641 0.38)
+			(end 0.153641 0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f739a05f-c153-450a-a081-df8861358dd3")
+		)
+		(fp_line
+			(start -0.93 -0.47)
+			(end 0.93 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "523ea7da-a6a2-4c7f-93b4-6d379a470de1")
+		)
+		(fp_line
+			(start -0.93 0.47)
+			(end -0.93 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7d13b5b6-401f-4601-aeec-9fcf3ed5d2a9")
+		)
+		(fp_line
+			(start 0.93 -0.47)
+			(end 0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3aa2c647-ae57-4649-8030-c0fdfc776e86")
+		)
+		(fp_line
+			(start 0.93 0.47)
+			(end -0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "469beacf-cda2-4887-a370-414905d7d9e5")
+		)
+		(fp_line
+			(start -0.525 -0.27)
+			(end 0.525 -0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "db8162a0-7d7e-4bd7-acd2-c381ce4bdaf5")
+		)
+		(fp_line
+			(start -0.525 0.27)
+			(end -0.525 -0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "872a3ac2-3d82-4389-bc7c-7874e1be648a")
+		)
+		(fp_line
+			(start 0.525 -0.27)
+			(end 0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "237239b7-20c3-4651-bf27-875e3f9ab7c9")
+		)
+		(fp_line
+			(start 0.525 0.27)
+			(end -0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "718bea05-5c01-4e69-853f-1e9fc802d810")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "c4bd49d2-3004-4e4b-8327-07e21046bb4e")
+			(effects
+				(font
+					(size 0.26 0.26)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.51 0)
+			(size 0.54 0.64)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 108 "Net-(J3-FB1-Pad1)")
+			(pintype "passive")
+			(uuid "fbc2adfd-ca60-45b7-a99a-ed6653a93205")
+		)
+		(pad "2" smd roundrect
+			(at 0.51 0)
+			(size 0.54 0.64)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 112 "Net-(J3-FB2-Pad5)")
+			(pintype "passive")
+			(uuid "390c308b-409e-4cd0-bc88-dc9808d62d13")
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "bcc3c592-954e-4186-a1a0-4125e877755a")
@@ -29002,7 +31460,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29014,7 +31472,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811091612_Samsung-Electro-Mechanics-CL21A476MQYNNNE_C16780.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29026,7 +31484,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Generic part"
 			(at 4.862 2.78 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -29133,7 +31591,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/2d050dac-58e9-49e8-9c42-ca80910ffbeb")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -29305,7 +31765,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29317,7 +31777,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006102223_Samsung-Electro-Mechanics-CL21A226MAYNNNE_C602037.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29448,7 +31908,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8547083b-1dc1-4cad-86f6-e8a57a5426e0")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -29620,7 +32082,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29644,7 +32106,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29656,7 +32118,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/04f91fb5-0e65-4a1e-8bc0-0831bcbb4b36")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -29850,7 +32314,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29874,7 +32338,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29886,7 +32350,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/71903aa5-5cb4-48e0-95a0-5bddd3441167")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -30058,7 +32524,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30201,7 +32667,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/73b6733a-1159-47fb-81fc-ca856ffd153e")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -30373,7 +32841,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30385,7 +32853,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30397,7 +32865,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Generic part"
 			(at 14.34 1.24 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30504,7 +32972,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/a22c312d-b529-4c63-859d-0409fedc3db8")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -30676,7 +33146,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30700,7 +33170,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30712,7 +33182,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/29bd1c89-6ac9-4f32-a77a-22f42a0482c0")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -30882,7 +33354,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:SOP50P490X110-10N"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30894,7 +33366,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2012211837_Hangzhou-Ruimeng-Tech-MS4344_C1509050.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30991,6 +33463,7 @@
 			)
 		)
 		(path "/5586df69-ff8b-49dc-8061-2e877d826819")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -31244,7 +33717,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31268,7 +33741,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31280,21 +33753,11 @@
 				)
 			)
 		)
-		(property "dnp" ""
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7062b68b-bf5a-40b7-bbc1-1fd592cb0b52")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "R_*")
 		(path "/df54444b-b986-4ac4-9b76-fcfbdad86b86")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -31464,7 +33927,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31476,7 +33939,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_CCTC-TCC0402C0G220J500AT_C466226.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31619,7 +34082,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/0f7285e3-145b-4a34-8552-edf00a84f071")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -31763,6 +34228,216 @@
 			)
 		)
 	)
+	(footprint "Capacitor_SMD:C_0402_1005Metric"
+		(layer "F.Cu")
+		(uuid "ca2675d3-9c1b-441e-b8f9-d3dbecfbad1c")
+		(at -45.93 -42.05)
+		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "capacitor")
+		(property "Reference" "C54"
+			(at 0 -1.16 0)
+			(layer "F.SilkS")
+			(uuid "06eee367-e964-45da-a1aa-a4b7988559e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1.16 0)
+			(layer "F.Fab")
+			(uuid "f4d622ba-6792-48ad-ab76-1dacfbe84120")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0991889-f760-4360-adbc-6df7aac2acbc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e020c9fc-e4e4-4e1c-a0e6-2153b46871a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79f0f427-07c6-4c84-990f-8094cbfd0424")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/af42c48f-6de7-4408-9007-5393f20394c1")
+		(sheetname "Root")
+		(sheetfile "hdmi2mipi.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.107836 -0.36)
+			(end 0.107836 -0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "081508fe-7207-49cf-b312-ca6d659ef782")
+		)
+		(fp_line
+			(start -0.107836 0.36)
+			(end 0.107836 0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "26fe6577-c511-4404-8131-0537b850c4e2")
+		)
+		(fp_line
+			(start -0.91 -0.46)
+			(end 0.91 -0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8394b116-061a-4148-8db5-2b99f4b33d16")
+		)
+		(fp_line
+			(start -0.91 0.46)
+			(end -0.91 -0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "25f7175b-6a76-4f2e-bbc7-491a89fb217a")
+		)
+		(fp_line
+			(start 0.91 -0.46)
+			(end 0.91 0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6d6d2586-99ce-4e74-ba61-e1667a1f4d4c")
+		)
+		(fp_line
+			(start 0.91 0.46)
+			(end -0.91 0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ad6a09ba-9ed6-4dbc-bf31-94e12e7a561f")
+		)
+		(fp_line
+			(start -0.5 -0.25)
+			(end 0.5 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d298e5a1-186e-4035-b686-4abac60c26b3")
+		)
+		(fp_line
+			(start -0.5 0.25)
+			(end -0.5 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fb2fc0d8-2c9b-4da8-91ba-53cbef642b59")
+		)
+		(fp_line
+			(start 0.5 -0.25)
+			(end 0.5 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "370ee26f-9f49-4e75-871c-e00122125996")
+		)
+		(fp_line
+			(start 0.5 0.25)
+			(end -0.5 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "29056302-8e53-461f-ba21-0abc7aaf98af")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "3837318c-cd99-4012-9e55-b6aefcb3ec40")
+			(effects
+				(font
+					(size 0.25 0.25)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.48 0)
+			(size 0.56 0.62)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 150 "Net-(C54-Pad1)")
+			(pintype "passive")
+			(uuid "77a6c0aa-0eb8-468d-87e9-8ef6cd0fe1cd")
+		)
+		(pad "2" smd roundrect
+			(at 0.48 0)
+			(size 0.56 0.62)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 3 "GND")
+			(pintype "passive")
+			(uuid "dfaafb4d-6dca-4ee5-b9b2-fbea9d005946")
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "cba7f14b-2915-40db-9acb-a5aecc737ae0")
@@ -31791,7 +34466,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31803,7 +34478,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31934,7 +34609,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/e43c5503-d271-4f05-9beb-1f30364bbf2f")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -32104,7 +34781,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:Inductor_MSC20FC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32116,7 +34793,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_PSA-Prosperity-Dielectrics-MCS20FC-2R2MHC_C375944.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32236,7 +34913,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/a1c6f246-46d5-4171-a280-ed8a23f93c6d")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -32318,7 +34997,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32330,7 +35009,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006102223_Samsung-Electro-Mechanics-CL21A226MAYNNNE_C602037.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32461,7 +35140,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/d7dbd123-30ef-40d5-a91f-9b2968362682")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -32634,7 +35315,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32646,7 +35327,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809050356_Silergy-Corp-SY8079AAC_C133751.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32766,7 +35447,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/4c0ec63d-4ed7-4e78-a8f5-e21d278c10f4")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -33000,7 +35683,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33012,7 +35695,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33143,7 +35826,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/a5ec627b-1bef-42b2-9c61-5709b994373f")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -33315,7 +36000,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33327,7 +36012,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191216_Samsung-Electro-Mechanics-CL05A105KQ5NNNC_C107372.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33446,7 +36131,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/85568fcc-4458-4a28-824d-9fee5a434cfc")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -33618,7 +36305,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33630,7 +36317,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33761,7 +36448,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/1f5a34c8-4f66-4088-9e65-bae8ec4e179e")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -33933,7 +36622,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33945,7 +36634,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34076,7 +36765,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/41495679-aa98-429c-be07-b0260593dc5e")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -34248,7 +36939,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34260,7 +36951,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_JGHC-S3212000181080_C390764.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34380,7 +37071,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Crystal*")
 		(path "/bf27ef37-ccc2-405d-a516-091f5b304f5a")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -34580,7 +37273,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34592,7 +37285,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34723,7 +37416,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/1f115532-5cce-4a9c-abdb-e9a0cfda7748")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -34895,7 +37590,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34919,7 +37614,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34931,7 +37626,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/96b1f920-ffd1-4412-b1d1-ef77481a0736")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -35005,7 +37702,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35017,7 +37714,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006102223_Samsung-Electro-Mechanics-CL21A226MAYNNNE_C602037.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35148,7 +37845,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/7ead2a75-a7e0-4df0-af59-9b27a3757f3a")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -35318,7 +38017,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:Inductor_MSC20FC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35330,7 +38029,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_PSA-Prosperity-Dielectrics-MCS20FC-2R2MHC_C375944.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35450,7 +38149,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/d3fab7a3-3e28-4961-bc7c-504d76e5b95f")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -35532,7 +38233,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35544,7 +38245,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35556,7 +38257,7 @@
 				)
 			)
 		)
-		(property "Description" "USB 2.0-only Type-C Receptacle connector"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35568,7 +38269,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/e204903e-517d-4e7c-bd93-754db9f11483")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -35954,7 +38657,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35966,7 +38669,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110252230_UNI-ROYAL-Uniroyal-Elec-0402WGF270JTCE_C25100.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36097,7 +38800,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/3670d852-15fc-415c-a80b-96c811dce863")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -36269,7 +38974,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36281,7 +38986,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010152035_CCTC-TCC0402X7R393K500AT_C880624.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36293,7 +38998,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Generic part"
 			(at 12.26 3.17 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -36400,7 +39105,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/5aaf3ed3-0877-4d9a-82ed-31d77f0004be")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -36572,7 +39279,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36584,7 +39291,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006102223_Samsung-Electro-Mechanics-CL21A226MAYNNNE_C602037.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36715,7 +39422,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b590ca4e-44e5-4441-bb19-cb056fec48be")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -36887,7 +39596,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36899,7 +39608,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36911,7 +39620,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual bidirectional I2C Bus and SMBus voltage level translator, VSSOP-8, Discontinued"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36923,7 +39632,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "VSSOP*2.3x2mm*P0.5mm*")
 		(path "/30880d02-402c-4ad7-b330-4a0c3ad7c1f6")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -37159,7 +39870,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37183,7 +39894,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37195,7 +39906,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/0b7c0881-a6c0-43df-9b60-262c36f8ceb4")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -37367,7 +40080,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37379,7 +40092,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_CCTC-TCC0402C0G220J500AT_C466226.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37522,7 +40235,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/2503d8d3-3f08-49fa-a8d3-5faf0ead9d75")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -37692,7 +40407,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:QFN40P700X700X90-57N"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37704,7 +40419,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2201101600_Raspberry-Pi-RP2040_C2040.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37848,6 +40563,7 @@
 			)
 		)
 		(path "/a799b7eb-ab94-449e-ae3c-dc2a2369e0ba")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr through_hole)
 		(fp_poly
@@ -38329,7 +41045,7 @@
 			(size 0.84 0.2)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.03)
-			(net 149 "unconnected-(U7-GPIO18-Pad29)")
+			(net 117 "BL_EN")
 			(pinfunction "GPIO18")
 			(pintype "bidirectional")
 			(uuid "461affea-146c-4166-8bb7-3bb1355acbd5")
@@ -38339,7 +41055,7 @@
 			(size 0.84 0.2)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.03)
-			(net 150 "unconnected-(U7-GPIO19-Pad30)")
+			(net 166 "BL_PWM")
 			(pinfunction "GPIO19")
 			(pintype "bidirectional")
 			(uuid "c2ce7976-32de-4a6f-9ba8-28cce13f2a69")
@@ -38643,7 +41359,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_HDMI:HDMI_A_Molex_208658-1001_Horizontal"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38655,7 +41371,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://en.wikipedia.org/wiki/HDMI"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38667,7 +41383,7 @@
 				)
 			)
 		)
-		(property "Description" "HDMI 1.4+ type A connector"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38679,7 +41395,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "HDMI*A*")
 		(path "/6611328b-a96f-45dc-9ccc-b97841400c9e")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -39279,7 +41997,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39291,7 +42009,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006102223_Samsung-Electro-Mechanics-CL21A226MAYNNNE_C602037.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39422,7 +42140,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/5b0c35bb-c114-4fcf-899c-ae499fca6cca")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -39594,7 +42314,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39606,7 +42326,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39618,7 +42338,7 @@
 				)
 			)
 		)
-		(property "Description" "0.1A Ic, 65V Vce, NPN Transistor, SOT-23"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39630,7 +42350,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/486eb8dd-c18a-4cbd-abc8-705d1ed3e41f")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -39844,7 +42566,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39856,7 +42578,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39999,7 +42721,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/c9dee2af-9c96-4aae-8621-aa5d772581c4")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -40169,7 +42893,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:Inductor_MSC20FC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40181,7 +42905,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_PSA-Prosperity-Dielectrics-MCS20FC-2R2MHC_C375944.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40301,7 +43025,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/10521f39-2c46-498c-ab04-aa28ca956993")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -40383,7 +43109,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40395,7 +43121,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40407,7 +43133,7 @@
 				)
 			)
 		)
-		(property "Description" "0.1A Ic, 65V Vce, NPN Transistor, SOT-23"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40419,7 +43145,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/83b256fb-0af4-4de5-9a3e-e55b21613387")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -40588,7 +43316,7 @@
 			(size 1.475 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 62 "Net-(J3-3.3-S2)")
+			(net 63 "Net-(J3-3.3-S1)")
 			(pinfunction "C")
 			(pintype "passive")
 			(uuid "cb1d0358-6d2c-402e-978e-3133034758dc")
@@ -40633,7 +43361,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40645,7 +43373,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_CCTC-TCC0402C0G220J500AT_C466226.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40788,7 +43516,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8e4bee2d-4bf7-46f0-a9f4-d6068eb7f6c6")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -40960,7 +43690,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40984,7 +43714,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40996,7 +43726,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/ea096dfb-c201-43fb-a7b5-031f48170d44")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -41124,7 +43856,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 62 "Net-(J3-3.3-S2)")
+			(net 63 "Net-(J3-3.3-S1)")
 			(pintype "passive")
 			(uuid "37a4b987-d30a-4a07-952e-022f063a42a5")
 		)
@@ -41168,7 +43900,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41180,7 +43912,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41311,7 +44043,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/bcfb84a6-a197-44ea-acf4-633c43ed7608")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -41483,7 +44217,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41507,7 +44241,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41519,7 +44253,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/6279ec1f-b69e-4c1b-a776-e220891151e8")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -41691,7 +44427,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41727,7 +44463,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/69a63d48-4d47-486e-ba3b-e436f704c257")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -41899,7 +44637,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41923,7 +44661,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41935,7 +44673,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/d4e07b32-33c2-410c-adcd-9a39f66c2b7f")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -42105,7 +44845,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:PSON50P300X200X60-9N"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42117,7 +44857,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://nl.mouser.com/datasheet/2/949/w25q16jv_spi_revg_03222018_plus-1489727.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42213,6 +44953,7 @@
 			)
 		)
 		(path "/168f73b2-ac81-4cf6-9114-cb36ba4311f4")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -42444,7 +45185,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42468,7 +45209,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42480,7 +45221,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/d668a537-a48a-4b5c-95b4-ffc9d12067a4")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -42652,7 +45395,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42664,7 +45407,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42807,7 +45550,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/f58e93f6-0e7a-45f7-9b90-72966b8eb4dc")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -42979,7 +45724,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42991,7 +45736,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43003,7 +45748,7 @@
 				)
 			)
 		)
-		(property "Description" "0.1A Ic, 65V Vce, NPN Transistor, SOT-23"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43015,7 +45760,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/d349e264-80d5-4c59-952a-a744402b1d94")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -43229,7 +45976,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43241,7 +45988,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006102223_Samsung-Electro-Mechanics-CL21A226MAYNNNE_C602037.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43372,7 +46119,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/fa8ba200-d775-4a2c-95fa-1db25a28fe46")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -43544,7 +46293,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43556,7 +46305,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110251730_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43687,7 +46436,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/a10fae66-eed0-40af-9681-b6e9bfd8faaa")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -43857,7 +46608,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "tc358840xbg:tc358840xbg"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43894,6 +46645,7 @@
 			)
 		)
 		(path "/04020e0f-1ede-45f2-b65d-3ee84110e3cf")
+		(sheetname "Root")
 		(sheetfile "hdmi2mipi.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -53360,6 +56112,70 @@
 		(uuid "ff0d0a11-3ead-4e3c-bbf5-e6a3306f2854")
 	)
 	(segment
+		(start 18.866 8.75)
+		(end 18.792 8.676)
+		(width 0.127)
+		(layer "F.Cu")
+		(net 62)
+		(uuid "284dc5b3-5a05-41e8-93f1-8d539549473b")
+	)
+	(segment
+		(start 18.792 7.914)
+		(end 18.956 7.75)
+		(width 0.127)
+		(layer "F.Cu")
+		(net 62)
+		(uuid "38ea428e-bad6-47ee-b372-f955695997be")
+	)
+	(segment
+		(start 19.75 8.75)
+		(end 18.866 8.75)
+		(width 0.127)
+		(layer "F.Cu")
+		(net 62)
+		(uuid "3bf4db45-6f78-41ae-b7e4-1895f2970023")
+	)
+	(segment
+		(start 18.874 8.25)
+		(end 18.792 8.168)
+		(width 0.127)
+		(layer "F.Cu")
+		(net 62)
+		(uuid "643305ea-0d1d-4600-9fbb-3e54aff0829b")
+	)
+	(segment
+		(start 18.792 8.168)
+		(end 18.792 7.914)
+		(width 0.127)
+		(layer "F.Cu")
+		(net 62)
+		(uuid "7b02e372-69e1-4356-b088-1379a10d9237")
+	)
+	(segment
+		(start 18.792 8.676)
+		(end 18.792 8.168)
+		(width 0.127)
+		(layer "F.Cu")
+		(net 62)
+		(uuid "80579e6d-4b59-430f-b1fc-6ce7b7afba1d")
+	)
+	(segment
+		(start 18.956 7.75)
+		(end 19.75 7.75)
+		(width 0.127)
+		(layer "F.Cu")
+		(net 62)
+		(uuid "c7dc5845-72bb-4ad2-b684-d2756b3e0984")
+	)
+	(segment
+		(start 19.75 8.25)
+		(end 18.874 8.25)
+		(width 0.127)
+		(layer "F.Cu")
+		(net 62)
+		(uuid "dbfbb771-989e-4977-9a2c-d6dcdb8005b7")
+	)
+	(segment
 		(start 18.774999 -10.75)
 		(end 19.75 -10.75)
 		(width 0.09)
@@ -56226,70 +59042,6 @@
 		(layer "F.Cu")
 		(net 112)
 		(uuid "b3af7038-dbae-4ca4-be2f-38ac16aafa09")
-	)
-	(segment
-		(start 18.866 8.75)
-		(end 18.792 8.676)
-		(width 0.127)
-		(layer "F.Cu")
-		(net 114)
-		(uuid "284dc5b3-5a05-41e8-93f1-8d539549473b")
-	)
-	(segment
-		(start 18.792 7.914)
-		(end 18.956 7.75)
-		(width 0.127)
-		(layer "F.Cu")
-		(net 114)
-		(uuid "38ea428e-bad6-47ee-b372-f955695997be")
-	)
-	(segment
-		(start 19.75 8.75)
-		(end 18.866 8.75)
-		(width 0.127)
-		(layer "F.Cu")
-		(net 114)
-		(uuid "3bf4db45-6f78-41ae-b7e4-1895f2970023")
-	)
-	(segment
-		(start 18.874 8.25)
-		(end 18.792 8.168)
-		(width 0.127)
-		(layer "F.Cu")
-		(net 114)
-		(uuid "643305ea-0d1d-4600-9fbb-3e54aff0829b")
-	)
-	(segment
-		(start 18.792 8.168)
-		(end 18.792 7.914)
-		(width 0.127)
-		(layer "F.Cu")
-		(net 114)
-		(uuid "7b02e372-69e1-4356-b088-1379a10d9237")
-	)
-	(segment
-		(start 18.792 8.676)
-		(end 18.792 8.168)
-		(width 0.127)
-		(layer "F.Cu")
-		(net 114)
-		(uuid "80579e6d-4b59-430f-b1fc-6ce7b7afba1d")
-	)
-	(segment
-		(start 18.956 7.75)
-		(end 19.75 7.75)
-		(width 0.127)
-		(layer "F.Cu")
-		(net 114)
-		(uuid "c7dc5845-72bb-4ad2-b684-d2756b3e0984")
-	)
-	(segment
-		(start 19.75 8.25)
-		(end 18.874 8.25)
-		(width 0.127)
-		(layer "F.Cu")
-		(net 114)
-		(uuid "dbfbb771-989e-4977-9a2c-d6dcdb8005b7")
 	)
 	(segment
 		(start 0.69 -16.99)
